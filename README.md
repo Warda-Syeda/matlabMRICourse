@@ -21,7 +21,7 @@ After completing this lesson, students should be able to
 *   Analyse and identify the contents of MRI image files.
 *   Create NIFTI image files for FSL and MRtrix tools.
 *   Select and extract Regions of interest and image slices from multidimensional datasets.
-*   Apply data visualisation techniques for presenting 4D or MRI images.
+*   Apply data visualisation techniques for presenting 4D MRI images.
 
 **Part 3: MATLAB for Structural MRI**
 
