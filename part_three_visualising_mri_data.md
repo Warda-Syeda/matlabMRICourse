@@ -1,2 +1,2 @@
-# Part Three: Visualising MRI Data
+# Part Three: Visualizing MRI Data
 
