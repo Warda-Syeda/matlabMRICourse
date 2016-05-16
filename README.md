@@ -1,6 +1,5 @@
 # MATLAB for MRI Applications {#matlab-for-mri}
 
-**MATLAB for Magnetic Resonance Imaging Applications**
 
 **Part 1: Introduction of MATLAB environment**
 
