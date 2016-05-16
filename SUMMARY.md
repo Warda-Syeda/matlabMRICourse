@@ -1,6 +1,6 @@
 # Summary
 
-* [MATLAB for MRI](README.md)
+* [Introduction](README.md)
 * [Part One: Understanding Data Structures](part_one_understanding_data_structures.md)
 * [Part Two: Loading MRI Data](part_two_loading_mri_data.md)
 * [Part Three: Visualising MRI Data](part_three_visualising_mri_data.md)
