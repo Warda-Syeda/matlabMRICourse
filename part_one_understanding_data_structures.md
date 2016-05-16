@@ -1,5 +1,9 @@
 # Part One: Understanding Data Structures
 
+This is a code snippet:
+ 
+{% codesnippet "./myfile.js" %}{% endcodesnippet %}
+
 Explain Command window
 
 Commands – clc, clear, close, whos
