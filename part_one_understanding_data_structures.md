@@ -2,7 +2,7 @@
 
 This is a code snippet:
  
-{% codesnippet "./myfile.js" %}{% endcodesnippet %}
+{% codesnippet "./myfile.m" %}{% endcodesnippet %}
 
 Explain Command window
 
