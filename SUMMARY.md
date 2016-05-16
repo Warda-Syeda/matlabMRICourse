@@ -6,4 +6,5 @@
 * Part Three: Visualising MRI Data
 * Part Four: Analysing MRI Data
 * Part Five: Exporting MRI Data
+* Part Six: Beyond MATLAB...
 
