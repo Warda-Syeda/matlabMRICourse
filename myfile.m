@@ -6,3 +6,7 @@
  disp('Sum')
  
  % This is a new line
+ F=100;
+ g=10;
+ m=1000;
+ 
