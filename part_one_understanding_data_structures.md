@@ -80,7 +80,7 @@ Links to MATLAB help
 
 Challenge 2
 
-1.  Convert the structure from pervious challenge to a cell array and name it myImageCell.
+1.  Convert the structure from previous challenge to a cell array and name it myImageCell.
 2.  Display the 2-D image located at (: , : ,1) in Img field and change the colormap to gray
 3.  Calculate mean image using cellfun
 4.  Add the mean image to myImageCell
