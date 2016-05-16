@@ -42,29 +42,3 @@ After finishing this lesson, the students should be able to
 
 At the end of this lesson, the students should be able to
 
-**Notes**
-
-**Part 1**
-
-
-**Part 2**
-
-Show and discuss example DICOM and 2dseq images, import/ read them in MATLAB
-
-Convert them into Nifti files
-
-Challenge 4
-
-1.  Convert myImage.Img to a Nifti file
-2.  Export Nifti file from MATLAB
-3.  Read it in again and display in MATLAB
-
-Show manual ROI selection techniques in different directions etc.
-
-Challenge 5
-
-List of online MATALB toolboxes
-
-[http://www.cise.ufl.edu/~abarmpou/lab/fanDTasia/tutorial.php](http://www.cise.ufl.edu/~abarmpou/lab/fanDTasia/tutorial.php)
-
-[http://brainimaging.waisman.wisc.edu/~chung/DTI/2012.07.09.NIMS.DTI.tutorial.pdf](http://brainimaging.waisman.wisc.edu/~chung/DTI/2012.07.09.NIMS.DTI.tutorial.pdf)
