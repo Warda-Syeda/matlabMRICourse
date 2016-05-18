@@ -8,6 +8,8 @@ In MATLAB, a '.' operator identifies a structure.
  
 {% codesnippet "./mCode/p1.m", lines="3:9" %}{% endcodesnippet %}
 
+A structre contains a list of fields. Each field is a variable name that stores a particular piece of data.
+
 Alternatively, the function 'struct' creates a structure array.  
 
 
