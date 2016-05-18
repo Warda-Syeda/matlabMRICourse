@@ -22,7 +22,9 @@ Challenge 1
 {% codesnippet "./mCode/p1.m", lines="20:27" %}{% endcodesnippet %}
 
 
-Cells
+## Cells in MATLAB
+
+
 
 >> Names = [‘Joe’ ;‘Jane’;’John’]
 
