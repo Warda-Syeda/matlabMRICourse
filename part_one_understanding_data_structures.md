@@ -6,33 +6,21 @@ Structures and cells are a convenient way of grouping heterogeneous data togethe
 
 In MATLAB, a '.' operator identifies a structure. A structre contains a list of fields. Each field is a variable name that stores a particular piece of data.
  
-{% codesnippet "./mCode/p1.m", lines="3:9" %}{% endcodesnippet %}
+{% codesnippet "./mCode/p1.m", lines="3:8" %}{% endcodesnippet %}
 
 Alternatively, the function 'struct' creates a structure array.  
 
 
-{% codesnippet "./mCode/p1.m", lines="10:11" %}{% endcodesnippet %}
+{% codesnippet "./mCode/p1.m", lines="9:10" %}{% endcodesnippet %}
  
  It is possible to have an array of structures. 
-{% codesnippet "./mCode/p1.m", lines="14:16" %}{% endcodesnippet %}
+
+{% codesnippet "./mCode/p1.m", lines="11:13" %}{% endcodesnippet %}
 
 Challenge 1
 
-1\. Load Ex_Struct1.mat and examine the fields of the structure myData.
+{% codesnippet "./mCode/p1.m", lines="18:27" %}{% endcodesnippet %}
 
-2\. Create a structure called myImage with following fields
-
-Img – a 3D image (You can use MATLAB’s in-build function ‘magic’ to fill image)
-
-Dim – a vector containing dimensions of the image
-
-ColorMap – Colormap of the image
-
-Date – Date the image was created
-
-ID – A unique image ID
-
-3\. Save myImage structure as a .mat file in current directory
 
 Cells
 
