@@ -2,7 +2,10 @@
 Most MRI datasets contain details of experimental setup used for acquisition and reconstruction along with actual images. 
 Structures and cells are a convenient way of grouping heterogeneous data together. 
 
-Structures in MATLAB
+
+## Structures in MATLAB
+
+
 
 This is a code snippet:
  
