@@ -10,8 +10,7 @@ In MATLAB, a '.' operator identifies a structure.
 
 Alternatively, the function 'struct' creates a structure array.  
 
- 
- 
+
 {% codesnippet "./mCode/p1.m", lines="3:11" %}{% endcodesnippet %}
  
  It is possible to have an array of structures. 
