@@ -10,7 +10,6 @@ In MATLAB, a '.' operator identifies a structure.
 
 It is possible to have an array of structures.  
 
-Structure Arrays
 
 >> Directory(1).Person = Person1
 
