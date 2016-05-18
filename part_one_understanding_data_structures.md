@@ -17,6 +17,7 @@ Alternatively, the function 'struct' creates a structure array.
 {% codesnippet "./mCode/p1.m", lines="11:13" %}{% endcodesnippet %}
 
 Challenge 1
+Please find Ex_struct1.mat here.
 
 1\. Load Ex_Struct1.mat and examine the fields of the structure myData.
 
