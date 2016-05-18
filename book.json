@@ -1,3 +1,6 @@
 {
 "plugins": ["codesnippet"]
+"plugins": [
+    "include-codeblock"
+ ]
 }
