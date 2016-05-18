@@ -10,10 +10,10 @@ In MATLAB, a '.' operator identifies a structure.
 
 It is possible to have an array of structures.  
 
+ 
+{% codesnippet "./mCode/p1.m", lines="13:17" %}{% endcodesnippet %}
 
->> Directory(1).Person = Person1
 
->> Directory(2).Person = Person2
 
 Challenge 1
 
