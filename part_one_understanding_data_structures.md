@@ -17,11 +17,8 @@ Alternatively, the function 'struct' creates a structure array.
 {% codesnippet "./mCode/p1.m", lines="11:13" %}{% endcodesnippet %}
 
 Challenge 1
-Please find Ex_struct1.mat [here](https://github.com/Warda-Syeda/matlabMRICourse/tree/master/HelperFiles).
 
-1\. Load Ex_Struct1.mat and examine the fields of the structure myData.
-
-2\. Create a structure called myImage with following fields
+Create a structure called myImage with following fields
 
 Img – a 3D image (You can use MATLAB’s in-build function ‘magic’ to fill image)
 
