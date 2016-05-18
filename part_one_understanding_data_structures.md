@@ -1,6 +1,6 @@
 # Part One: Understanding Structures and Cells
-
-Structures and cells are a convenient way of grouping heterogeneous data together.
+Besides images, most MRI datasets contain details of experimental setup used for acquisition and reconstruction.
+Structures and cells are a convenient way of grouping heterogeneous data together. 
 
 This is a code snippet:
  
