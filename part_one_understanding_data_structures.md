@@ -4,7 +4,7 @@ Structures and cells are a convenient way of grouping heterogeneous data togethe
 
 ## Structures in MATLAB
 
-In MATLAB structures are identified by '.' operator.
+In MATLAB, a '.' operator identifies a strucutre.
 
 This is a code snippet:
  
