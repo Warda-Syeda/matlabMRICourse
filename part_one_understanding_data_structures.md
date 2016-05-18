@@ -1,4 +1,4 @@
-# Part One: Understanding Data Structures
+# Part One: Understanding Structures and Cells
 
 This is a code snippet:
  
