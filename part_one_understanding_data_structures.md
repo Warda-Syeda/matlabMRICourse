@@ -14,7 +14,7 @@ Alternatively, the function 'struct' creates a structure array.
 {% codesnippet "./mCode/p1.m", lines="11:12" %}{% endcodesnippet %}
  
  It is possible to have an array of structures. 
-{% codesnippet "./mCode/p1.m", lines="11:13" %}{% endcodesnippet %}
+{% codesnippet "./mCode/p1.m", lines="14:16" %}{% endcodesnippet %}
 
 Challenge 1
 
