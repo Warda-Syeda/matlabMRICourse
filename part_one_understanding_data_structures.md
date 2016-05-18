@@ -9,7 +9,8 @@ In MATLAB, a '.' operator identifies a structure.
 {% codesnippet "./mCode/p1.m", lines="3:11" %}{% endcodesnippet %}
 
 It is possible to have an array of structures.  
-
+ 
+{% codesnippet "./mCode/p1.m", lines="2:5" %}{% endcodesnippet %}
  
 {% codesnippet "./mCode/p1.m", lines="13:17" %}{% endcodesnippet %}
 
