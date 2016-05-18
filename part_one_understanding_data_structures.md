@@ -6,7 +6,7 @@ Structures and cells are a convenient way of grouping heterogeneous data togethe
 
 In MATLAB, a '.' operator identifies a structure.
  
-{% codesnippet "./mCode/p1.m", lines="3:6" %}{% endcodesnippet %}
+{% codesnippet "./mCode/p1.m", lines="2:6" %}{% endcodesnippet %}
 
 
 Example
