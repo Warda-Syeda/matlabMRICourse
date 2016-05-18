@@ -4,11 +4,10 @@ Structures and cells are a convenient way of grouping heterogeneous data togethe
 
 ## Structures in MATLAB
 
-In MATLAB, a '.' operator identifies a structure.
+In MATLAB, a '.' operator identifies a structure. A structre contains a list of fields. Each field is a variable name that stores a particular piece of data.
  
 {% codesnippet "./mCode/p1.m", lines="3:9" %}{% endcodesnippet %}
 
-A structre contains a list of fields. Each field is a variable name that stores a particular piece of data. For example, 'FirstName', 'LastName' etc are fields of the person1 struct.
 
 Alternatively, the function 'struct' creates a structure array.  
 
