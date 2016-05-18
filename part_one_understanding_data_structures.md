@@ -1,5 +1,7 @@
 # Part One: Understanding Structures and Cells
 
+Structures and cells are a convientient way of grouping heterogenous data together.
+
 This is a code snippet:
  
 {% codesnippet "./myfile.m", lines="1:4" %}{% endcodesnippet %}
