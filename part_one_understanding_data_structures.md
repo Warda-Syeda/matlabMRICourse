@@ -8,7 +8,7 @@ In MATLAB, a '.' operator identifies a strucutre.
 
 This is a code snippet:
  
-{% codesnippet "./myfile.m", lines="1:4" %}{% endcodesnippet %}
+{% codesnippet "./p1.m", lines="1:4" %}{% endcodesnippet %}
 
 Explain Command window
 
