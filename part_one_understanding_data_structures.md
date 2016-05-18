@@ -1,5 +1,5 @@
 # Part One: Understanding Structures and Cells
-Most MRI datasets contain details of experimental setup used for acquisition and reconstruction besides actual images. 
+Most MRI datasets contain details of experimental setup used for acquisition and reconstruction along with actual images. 
 Structures and cells are a convenient way of grouping heterogeneous data together. 
 
 This is a code snippet:
