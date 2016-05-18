@@ -9,13 +9,6 @@ In MATLAB, a '.' operator identifies a structure.
 {% codesnippet "./mCode/p1.m", lines="3:11" %}{% endcodesnippet %}
 
 
-Example
-
-
-
-
-
->> Person1.Marks = [90 30 100]
 
 Structure Arrays
 
