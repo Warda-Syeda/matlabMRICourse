@@ -11,7 +11,7 @@ In MATLAB, a '.' operator identifies a structure. A structre contains a list of 
 Alternatively, the function 'struct' creates a structure array.  
 
 
-{% codesnippet "./mCode/p1.m", lines="10:11" %}{% endcodesnippet %}
+{% codesnippet "./mCode/p1.m", lines="9:11" %}{% endcodesnippet %}
  
  It is possible to have an array of structures. 
 {% codesnippet "./mCode/p1.m", lines="14:16" %}{% endcodesnippet %}
