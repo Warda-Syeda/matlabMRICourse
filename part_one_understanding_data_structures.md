@@ -19,7 +19,7 @@ Alternatively, the function 'struct' creates a structure array.
 
 Challenge 1
 
-{% codesnippet "./mCode/p1.m", lines="18:27" %}{% endcodesnippet %}
+{% codesnippet "./mCode/p1.m", lines="20:27" %}{% endcodesnippet %}
 
 
 Cells
