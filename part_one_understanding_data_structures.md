@@ -13,9 +13,7 @@ This is a code snippet:
 
 Example
 
->> Person1.FirstName = ‘Jane’
 
->> Person1.LastName = ‘Doe’
 
 >> Person1.PassportNum = 12345
 
