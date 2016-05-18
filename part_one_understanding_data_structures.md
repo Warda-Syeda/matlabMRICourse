@@ -1,6 +1,6 @@
 # Part One: Understanding Structures and Cells
 Most MRI datasets contain images and details of experimental setup used for acquisition and reconstruction.
-Structures and cells are a convenient way of grouping heterogeneous data together into a single entity. 
+Structures and cells are a convenient way of grouping heterogeneous data together into a single entity. This allows for Managing heterogeneous data of different types and sizes efficiently.
 
 ## Structures in MATLAB
 
@@ -10,9 +10,8 @@ This is a code snippet:
  
 {% codesnippet "./p1.m", lines="1:4" %}{% endcodesnippet %}
 
-Grouping data into a single entity
 
-Manage heterogeneous data of different types and sizes
+
 
 Example
 
