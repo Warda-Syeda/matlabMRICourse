@@ -14,23 +14,13 @@ Alternatively, the function 'struct' creates a structure array.
 {% codesnippet "./mCode/p1.m", lines="9:10" %}{% endcodesnippet %}
  
  It is possible to have an array of structures. 
+
 {% codesnippet "./mCode/p1.m", lines="11:13" %}{% endcodesnippet %}
 
 Challenge 1
 
-Create a structure called myImage with following fields
+{% codesnippet "./mCode/p1.m", lines="11:13" %}{% endcodesnippet %}
 
-Img – a 3D image (You can use MATLAB’s in-build function ‘magic’ to fill image)
-
-Dim – a vector containing dimensions of the image
-
-ColorMap – Colormap of the image
-
-Date – Date the image was created
-
-ID – A unique image ID
-
-3\. Save myImage structure as a .mat file in current directory
 
 Cells
 
