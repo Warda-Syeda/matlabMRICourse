@@ -18,11 +18,11 @@ Directory(2).Person = Person2;
 % Challenge 
 
 %Create a structure called myImage with following fields
-%Img ? a 3D image (You can use MATLAB?s in-build function ?magic? to fill image)
-%Dim ? a vector containing dimensions of the image
-%ColorMap ? Colormap of the image
-%Date ? Date the image was created
-%ID ? A unique image ID
+%Img: a 3D image (You can use MATLAB?s in-build function ?magic? to fill image)
+%Dim: a vector containing dimensions of the image
+%ColorMap: Colormap of the image
+%Date: Date the image was created
+%ID: A unique image ID
 
 %Save myImage structure as a .mat file in current directory
 
