@@ -1,6 +1,6 @@
 # Part One: Understanding Structures and Cells
 
-Structures and cells are a convientient way of grouping heterogenous data together.
+Structures and cells are a convenient way of grouping heterogeneous data together.
 
 This is a code snippet:
  
