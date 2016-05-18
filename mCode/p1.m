@@ -1,5 +1,5 @@
 % Part 1: Understanding structures and cells
-a=1;
+
 % Structs are defined using '.'
 Person1.FirstName = 'Jane';
 Person1.LastName = 'Doe';
