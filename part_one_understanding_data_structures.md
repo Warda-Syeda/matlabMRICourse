@@ -13,8 +13,6 @@ It is possible to have an array of structures.
  
 {% codesnippet "./mCode/p1.m", lines="13:17" %}{% endcodesnippet %}
 
-
-
 Challenge 1
 
 1\. Load Ex_Struct1.mat and examine the fields of the structure myData.
