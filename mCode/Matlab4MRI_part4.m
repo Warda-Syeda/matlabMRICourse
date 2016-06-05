@@ -11,8 +11,9 @@ clc;
 
 % Create a 40x40x40 cube in the center of a 140x140x140 frame 
 frameDim=140;      % declaring frame dimensions
- 
-[Y X Z] = meshgrid(1:F_dim,1:F_dim,1:F_dim);  %matlab saves in a different order so X must be Y
+
+% Make a 3D grid
+[Y X Z] = meshgrid(1:frameDim,1:frameDim,1:frameDim);  %matlab saves in a different order so X must be Y
 
 % center of your cube equal to center of the frame
 centerX = F_dim/2;
