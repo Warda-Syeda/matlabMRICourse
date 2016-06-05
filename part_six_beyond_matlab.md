@@ -1,2 +1,3 @@
-# Part Six: Beyond MATLAB...
+# Part Six: 3D Structural Modelling
+
 
