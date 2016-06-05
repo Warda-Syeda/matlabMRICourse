@@ -8,8 +8,6 @@
 % Create a cube (40x40x40) and in the middle of a frame (140x140x140)
 
 clear;
-close all;
-clc; 
 
 F_dim=140;
  
