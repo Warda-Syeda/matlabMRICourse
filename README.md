@@ -40,5 +40,11 @@ After finishing this lesson, the students should be able to
 
 **Learning Objectives**
 
-At the end of this lesson, the students should be able to
+After finishing this lesson, the students should be able to:
+•	Demonstrate basic knowledge of 3D volumes and surfaces.
+•	Extract the 3D surface of a 3D volume.
+•	Visualise 3D surfaces and color coded surface attributes. 
+•	Read and write 3D surfaces files in MATLAB.
+•	Convert 3D surface files to each other.  
+
 

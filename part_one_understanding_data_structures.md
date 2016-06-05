@@ -1,10 +1,10 @@
-# Part One: Understanding Structures and Cells
+# Part One: Understanding Structures
 Most MRI datasets contain images and details of experimental setup used for acquisition and reconstruction.
 Structures and cells are a convenient way of grouping heterogeneous data together into a single entity. This allows for Managing heterogeneous data of different types and sizes efficiently.
 
 ## Structures in MATLAB
 
-In MATLAB, a '.' operator identifies a structure. A structre contains a list of fields. Each field is a variable name that stores a particular piece of data.
+In MATLAB, a '.' operator identifies a structure. A structure contains a list of fields. Each field is a variable name that stores a particular piece of data.
  
 {% codesnippet "./mCode/p1.m", lines="3:8" %}{% endcodesnippet %}
 
@@ -19,10 +19,12 @@ Alternatively, the function 'struct' creates a structure array.
 
 Challenge 1
 
-{% codesnippet "./mCode/p1.m", lines="18:27" %}{% endcodesnippet %}
+{% codesnippet "./mCode/p1.m", lines="20:27" %}{% endcodesnippet %}
 
 
-Cells
+## Cells in MATLAB
+
+
 
 >> Names = [‘Joe’ ;‘Jane’;’John’]
 
