@@ -15,8 +15,8 @@ frameDim=140;      % declaring frame dimensions
 % Make a 3D grid
 [Y X Z] = meshgrid(1:frameDim,1:frameDim,1:frameDim);  %matlab saves in a different order so X must be Y
 
-% center of your cube equal to center of the frame
-centerX = F_dim/2;
+% Defining cube center aligned to the center of the frame
+centerX = frameDim/2;
 centerY = F_dim/2;
 centerZ = F_dim/2;
 cube_dim_x = 40;
