@@ -45,8 +45,6 @@ After finishing this lesson, the students should be able to:
 •	Extract the 3D surface of a 3D volume.
 •	Visualise 3D surfaces and color coded surface attributes. 
 •	Read and write 3D surfaces files in MATLAB.
-•	Convert 3D surface files to each other. (Time to advertisement :D :  Open ply file in 3D Slicer. Open both hemispheres.  Talk about 3D slicer and FSL and courses and FreeSurfer soon. Use 3D slicer to save .ply as .stl (we can do .vtk as well) and open it in MeshLab)
+•	Convert 3D surface files to each other.  
 
-
-At the end of this lesson, the students should be able to
 
