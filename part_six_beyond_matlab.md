@@ -1,3 +1,3 @@
-# Part Six: 3D Structural Modelling
+# Part Six: 3D Structural Modeling
 
 
