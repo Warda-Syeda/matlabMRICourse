@@ -1,4 +1,5 @@
 % Part 1: Understanding structures and cells
+% Contributor/s: Warda Syeda
 
 % Structs are defined using '.'
 Person1.FirstName = 'Jane';
