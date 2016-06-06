@@ -4,7 +4,7 @@ Structures are a convenient way of grouping heterogeneous data together into a s
 
 ## Structures in MATLAB
 
-In MATLAB, a '.' operator identifies a structure. A structure contains a list of fields. Each field is a variable name that stores a particular piece of data.
+In MATLAB, a dot operator '.' identifies a structure. A structure contains a list of fields. Each field is a variable name that stores a particular piece of data.
  
 {% codesnippet "./mCode/p1.m", lines="3:8" %}{% endcodesnippet %}
 
