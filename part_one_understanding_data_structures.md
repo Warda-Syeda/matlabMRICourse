@@ -1,7 +1,11 @@
 # Part One: Understanding MRI Data
-Most MRI datasets contain images and details of experimental setup used for data acquisition and reconstruction. MRI images come in a variety of formats depending on the company of the scanner used for imaging.  The most commonly encountered format ,DICOM format, is supported by Siemens, GE and Philips scanners. Bruker scanners support 2dseq format. 
+Most MRI datasets contain images and details of experimental setup used for data acquisition and reconstruction. MRI images come in a variety of formats depending on the company of the scanner used for imaging.  The most commonly encountered format , DICOM, is supported by Siemens, GE and Philips scanners. Bruker scanners support 2dseq format. 
 
 In this course, we will focus on DICOM images. However, most of the course content can be translated to MRI images in other formats with minor modifications.
+
+## DICOM Images
+
+
 
 
 Structures are a convenient way of grouping heterogeneous data together into a single entity. This allows for Managing heterogeneous data of different types and sizes efficiently.
@@ -25,50 +29,4 @@ Challenge 1
 
 {% codesnippet "./mCode/p1.m", lines="20:27" %}{% endcodesnippet %}
 
-
-## Cells in MATLAB
-
-
-
->> Names = [‘Joe’ ;‘Jane’;’John’]
-
->> Names = ['Joe' 'Jane''John']
-
->> Names = {'Joe' 'Jane' 'John'}
-
-% Other Examples: Region Names, Dataset Names, Data Properties etc
-
-Mixed Data types in cells
-
->> Names = ['Joe' 'Jane' 'John' 100]
-
->> Names = {'Joe' 'Jane' 'John' 100}
-
-Indexing in cells
-
-Cell Indexing with Smooth Parentheses, ()
-
-Content Indexing with Curly Braces, {}
-
-cellfun
-
-Links to MATLAB help
-
-[http://au.mathworks.com/help/matlab/matlab_prog/multilevel-indexing-to-access-parts-of-cells.html](http://au.mathworks.com/help/matlab/matlab_prog/multilevel-indexing-to-access-parts-of-cells.html)
-
-[http://au.mathworks.com/help/matlab/matlab_prog/access-data-in-a-cell-array.html](http://au.mathworks.com/help/matlab/matlab_prog/access-data-in-a-cell-array.html)
-
-Challenge 2
-
-1.  Convert the structure from previous challenge to a cell array and name it myImageCell.
-2.  Display the 2-D image located at (: , : ,1) in Img field and change the colormap to gray
-3.  Calculate mean image using cellfun
-4.  Add the mean image to myImageCell
-5.  Save myImageCell in .mat file in current directory
-
-Loops and Conditionals with main focus on cells and structs
-
-Challenge 3
-
-Challenge about creating 2-3 similar structs and cells as previous challenges and looping through them. Display images only if certain conditions are met.
 
