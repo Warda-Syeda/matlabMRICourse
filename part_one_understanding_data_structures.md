@@ -23,7 +23,7 @@ Alternatively, 'dicomdisp' can be used to examine file structure and contents of
 
 **Loading DICOM image**
 
-DICOM image data is loaded into MATLAB using 'dicomread' function.
+DICOM image data is read into MATLAB using 'dicomread' function.
 
 !!!! insert code here !!!!
 
