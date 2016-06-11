@@ -5,6 +5,10 @@ In this course, we will focus on DICOM images. However, most of the course conte
 
 ## DICOM Images
 
+DICOM images are identified by the extension '.dcm'. 
+
+The function 'dicominfo' reads in metadata of a DICOM file.
+
 
 
 
