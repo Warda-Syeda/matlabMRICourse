@@ -5,7 +5,7 @@ In this course, we will focus on DICOM images. However, most of the course conte
 
 ## DICOM File Strucutre
 
-DICOM images are identified by the extension '.dcm'. 
+DICOM images are identified by the extension '.dcm'. A DICOM file consists of 'Header' and 'Dataset'. 
 
 The function 'dicominfo' reads in metadata of a DICOM file.
 
