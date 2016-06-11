@@ -7,7 +7,11 @@ In this course, we will focus on DICOM images. However, most of the course conte
 
 DICOM images are identified by the extension '.dcm'. A DICOM file consists of 'Header' and 'Dataset'. 
 
-The header contains information on the encapsulated Dataset and is generally composed of a File Preamble, a DICOM prefix, and the File Meta Elements. The function 'dicominfo' reads in metadata of a DICOM file.
+The header contains information on the encapsulated Dataset and is generally composed of a File Preamble, a DICOM prefix, and the File Meta Elements. 
+
+**Accessing DICOM Metadata**
+
+The function 'dicominfo' reads in metadata of a DICOM file.
 
 !!!! Insert Code here !!!!
 
@@ -16,6 +20,8 @@ Detailed information about DICOM metadata  and how is can be used for certain ta
 Alternatively, 'dicomdisp' can be used to examine file structure and contents of a DICOM file.
 
 !!!! Insert code here !!!!
+
+**Loading DICOM image**
 
 DICOM image data is loaded into MATLAB using 'dicomread' function.
 
