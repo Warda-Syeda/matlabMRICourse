@@ -17,15 +17,17 @@ Alternatively, 'dicomdisp' can be used to examine file structure and contents of
 
 !!!! Insert code here !!!!
 
-DICOM image data can be loaded into MATLAB using 'dicomread' function.
+DICOM image data is loaded into MATLAB using 'dicomread' function.
 
 !!!! insert code here !!!!
 
 
 
-Structures are a convenient way of grouping heterogeneous data together into a single entity. This allows for Managing heterogeneous data of different types and sizes efficiently.
+ 
 
 ## Structures in MATLAB
+
+Structures are a convenient way of grouping heterogeneous data together into a single entity.
 
 In MATLAB, a dot operator '.' identifies a structure. A structure contains a list of fields. Each field is a variable name that stores a particular piece of data.
  
