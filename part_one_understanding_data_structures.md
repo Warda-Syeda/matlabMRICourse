@@ -35,3 +35,9 @@ Challenge 1
 {% codesnippet "./mCode/p1.m", lines="20:27" %}{% endcodesnippet %}
 
 
+## Online Resources
+
+1. [Detailed description of DICOM file format](https://www.leadtools.com/help/leadtools/v19/dicom/clib/introstruct.html)
+2. 
+
+
