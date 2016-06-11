@@ -27,6 +27,10 @@ DICOM image data is read into MATLAB using 'dicomread' function.
 
 !!!! insert code here !!!!
 
+A quick way to check how a single image looks like is to use 'imagesc'
+
+!!!! insert code here !!!!
+
 
 
  
