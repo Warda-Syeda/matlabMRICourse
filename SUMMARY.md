@@ -6,4 +6,5 @@
 * [Part Four: Analysing MRI Data](part_four_analysing_mri_data.md)
 * [Part Five: Exporting MRI Data](part_five_exporting_mri_data.md)
 * [Part Six: 3D Structural Modelling](part_six_beyond_matlab.md)
+* Selecting ROIs
 
