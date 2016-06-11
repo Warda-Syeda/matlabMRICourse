@@ -33,6 +33,12 @@ A quick way to check how a single image looks like is to use 'imagesc'
 
 *'dicomread' allows 'filename' or 'fileinfo' as input arguments. Using 'fileinfo' for identifying the dICOM file to read gives flexibility. For instance, we can read the file that satifies a given criteria even though we do not know its name*
 
+Generally, a single DICOM file cotains a single MRI slice data. To read in MRI data for all slices, each indiviual DICOM files should be loaded in separately. 'For' loop is generally used to read in all data files. 
+
+!!! insert code here!!!
+
+
+
 ## Structures in MATLAB
 
 Structures are a convenient way of grouping heterogeneous data together into a single entity.
