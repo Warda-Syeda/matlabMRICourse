@@ -31,6 +31,8 @@ A quick way to check how a single image looks like is to use 'imagesc'
 
 !!!! insert code here !!!!
 
+'dicomread' allows 'filename' or 'fileinfo' as input arguments. Using 'fileinfo' for identifying the dICOM file to read gives flexibility. 
+
 ## Structures in MATLAB
 
 Structures are a convenient way of grouping heterogeneous data together into a single entity.
