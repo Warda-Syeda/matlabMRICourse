@@ -11,7 +11,7 @@ The header consists of a 128 byte File Preamble, followed by a 4 byte DICOM pref
 
 The function 'dicominfo' reads in metadata of a DICOM file.
 
-
+Detailed information about DICOM metadata contents and how they are used can be found [here](http://au.mathworks.com/company/newsletters/articles/accessing-data-in-dicom-files.html)
 
 
 Structures are a convenient way of grouping heterogeneous data together into a single entity. This allows for Managing heterogeneous data of different types and sizes efficiently.
