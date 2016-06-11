@@ -7,7 +7,7 @@ In this course, we will focus on DICOM images. However, most of the course conte
 
 DICOM images are identified by the extension '.dcm'. A DICOM file consists of 'Header' and 'Dataset'. 
 
-The header contains information on the encapsulated Data Set and is generally composed of a File Preamble, a DICOM prefix, and the File Meta Elements. The function 'dicominfo' reads in metadata of a DICOM file.
+The header contains information on the encapsulated Dataset and is generally composed of a File Preamble, a DICOM prefix, and the File Meta Elements. The function 'dicominfo' reads in metadata of a DICOM file.
 
 !!!! Insert Code here !!!!
 
