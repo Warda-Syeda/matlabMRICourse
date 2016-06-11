@@ -1,2 +1,2 @@
-# Part Five: Exporting MRI Data
+# Exporting MRI Data
 
