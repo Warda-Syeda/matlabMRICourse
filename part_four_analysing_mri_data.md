@@ -1,2 +1,2 @@
-# Part Four: Analyzing MRI Data
+# Analyzing MRI Data
 
