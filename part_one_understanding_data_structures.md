@@ -3,7 +3,7 @@ Most MRI datasets contain images and details of experimental setup used for data
 
 In this course, we will focus on DICOM images. However, most of the course content can be translated to MRI images in other formats with minor modifications.
 
-## DICOM Images
+## DICOM File Strucutre
 
 DICOM images are identified by the extension '.dcm'. 
 
