@@ -9,6 +9,8 @@ DICOM images are identified by the extension '.dcm'. A DICOM file consists of 'H
 
 The header contains information on the encapsulated Data Set and is generally composed of a File Preamble, a DICOM prefix, and the File Meta Elements. The function 'dicominfo' reads in metadata of a DICOM file.
 
+!!!!!! Insert Code here !!!!!!
+
 Detailed information about DICOM metadata  and how is can be used for certain tasks e.g. memory pre-allocation is [here].(http://au.mathworks.com/company/newsletters/articles/accessing-data-in-dicom-files.html) .
 
 Structures are a convenient way of grouping heterogeneous data together into a single entity. This allows for Managing heterogeneous data of different types and sizes efficiently.
