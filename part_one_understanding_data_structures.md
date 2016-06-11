@@ -1,6 +1,9 @@
 # Part One: Understanding MRI Data
 Most MRI datasets contain images and details of experimental setup used for data acquisition and reconstruction. MRI images come in a variety of formats depending on the company of the scanner used for imaging.  The most commonly encountered format is DICOM supported by Siemens, GE and Philips scanners. 2dseq (Bruker) etc. Majority content of 
 
+In this course, we will mostly focus on DICOM images. However, most of the course content can easily be translated to MRI images in other formats.
+
+
 Structures are a convenient way of grouping heterogeneous data together into a single entity. This allows for Managing heterogeneous data of different types and sizes efficiently.
 
 ## Structures in MATLAB
