@@ -15,7 +15,7 @@ The function 'dicominfo' reads in metadata of a DICOM file.
 
 !!!! Insert Code here !!!!
 
-Detailed information about DICOM metadata  and how is can be used for certain tasks e.g. memory pre-allocation is [here].(http://au.mathworks.com/company/newsletters/articles/accessing-data-in-dicom-files.html) .
+Detailed information about DICOM metadata  and how it can be used for certain tasks e.g. memory pre-allocation is [here].(http://au.mathworks.com/company/newsletters/articles/accessing-data-in-dicom-files.html) .
 
 Alternatively, 'dicomdisp' can be used to examine file structure and contents of a DICOM file.
 
@@ -30,10 +30,6 @@ DICOM image data is read into MATLAB using 'dicomread' function.
 A quick way to check how a single image looks like is to use 'imagesc'
 
 !!!! insert code here !!!!
-
-
-
- 
 
 ## Structures in MATLAB
 
