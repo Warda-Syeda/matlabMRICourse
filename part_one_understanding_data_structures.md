@@ -7,12 +7,11 @@ In this course, we will focus on DICOM images. However, most of the course conte
 
 DICOM images are identified by the extension '.dcm'. A DICOM file consists of 'Header' and 'Dataset'. 
 
-The header consists of a 128 byte File Preamble, followed by a 4 byte DICOM prefix.
+The header consists of a 128 byte Preamble and a 4 byte DICOM prefix.
 
 The function 'dicominfo' reads in metadata of a DICOM file.
 
-Detailed information about DICOM metadata contents and how they are used can be found [here](http://au.mathworks.com/company/newsletters/articles/accessing-data-in-dicom-files.html)
-
+Detailed information about DICOM metadata  and how is can be used for certain tasks e.g. memory pre-allocation is [here].(http://au.mathworks.com/company/newsletters/articles/accessing-data-in-dicom-files.html) .
 
 Structures are a convenient way of grouping heterogeneous data together into a single entity. This allows for Managing heterogeneous data of different types and sizes efficiently.
 
