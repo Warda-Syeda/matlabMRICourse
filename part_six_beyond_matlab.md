@@ -18,6 +18,11 @@ To display the constructed surface, 'patch' function creates and visualizes  pol
 
 !!! Add Code here !!!
 
+Certain functions such as 'view', 'camlight' and axis can be used to visually improve the displayed surface. 
+
+!!! Add Code here !!!
+
+
 
 
 
