@@ -44,10 +44,10 @@ After color-coding the surface, it is useful to separately display a colorbar so
 
 !!! Add Code here !!!
 
-To save a created surface, the triangulated mesh can be converted to commonly used surface file formats such as Polygon File Format (.ply). 
+To save a created surface, the triangulated mesh can be converted to commonly used surface file formats such as Polygon File Format (.ply). The function tri_mesh_to_ply accepts a surface object and returns a PLY surface object.
 
 !!! Add Code here !!!
 
+The PLY
 
-
-
+**Helper functions**
