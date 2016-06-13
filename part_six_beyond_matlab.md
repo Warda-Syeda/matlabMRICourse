@@ -34,7 +34,9 @@ Sometimes, one surface could be hidden behind another surface. Setting 'FaceAlph
 
 !!! Add Code here !!!
 
+Instead of using one color for all faces/vertices of the surface, 'FaceVertixCData' property sets one color per face/vertex. 
 
+!!! Add Code here !!!
 
 
 
