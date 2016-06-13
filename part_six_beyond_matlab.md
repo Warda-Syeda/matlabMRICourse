@@ -38,7 +38,7 @@ Instead of using one color for all faces/vertices of the surface, 'FaceVertixCDa
 
 !!! Add Code here !!!
 
-
+After color-coding the surface, it is useful to separately display a colorbar so that the meaning of each color can easily be understood.  
 
 
 
