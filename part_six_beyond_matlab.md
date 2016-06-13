@@ -10,7 +10,7 @@ We are going to create simulated cube volume.
 
 !!! Add Code here !!!
 
-To create a surface from the simulated volume data, 'isosurface' is used. This function accepts a 3D volume and returns faces and vertices of the constructed surface.
+To create a surface from the simulated volume data, 'isosurface' is used. This function accepts a 3D volume and returns faces and vertices of the constructed surface in the form of a triangulated mesh.
 
 !!! Add Code here !!!
 
@@ -44,6 +44,9 @@ After color-coding the surface, it is useful to separately display a colorbar so
 
 !!! Add Code here !!!
 
+To save a created surface, the triangulated mesh can be converted to commonly used surface file formats such as Polygon File Format (.ply). 
+
+!!! Add Code here !!!
 
 
 
