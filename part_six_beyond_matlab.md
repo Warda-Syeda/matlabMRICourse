@@ -26,6 +26,9 @@ Changing patch properties allows us to control and change appearance and behavio
 
 !!! Add Code here !!!
 
+Sometimes, one surface could be hidden behind another surface. Setting 'FaceAlpha' property allows us to control the level of transparency of the object thus making it possible to view the hidden details. 
+
+!!! Add Code here !!!
 
 
 
