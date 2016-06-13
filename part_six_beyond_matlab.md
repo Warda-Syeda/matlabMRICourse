@@ -34,7 +34,7 @@ Sometimes, one surface could be hidden behind another surface. Setting 'FaceAlph
 
 !!! Add Code here !!!
 
-Instead of using one color for all faces/vertices of the surface, 'FaceVertixCData' property sets one color per face/vertex. It is an important property to visualise surface geometrical features.  
+Instead of using one color for all faces/vertices of the surface, 'FaceVertixCData' property sets one color per face/vertex. It is an important property to visualize surface geometrical features.  
 
 !!! Add Code here !!!
 
@@ -43,6 +43,8 @@ Predefined MATLAB colormaps can be used to color-code the surface.
 After color-coding the surface, it is useful to separately display a colorbar so that the meaning of each color can easily be understood. A colorbar can be displayed by using the funciton 'colorbar' or pushing the colorbar icon in the figure toolbar. 
 
 !!! Add Code here !!!
+
+
 
 
 
