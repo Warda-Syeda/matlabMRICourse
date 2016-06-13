@@ -22,6 +22,10 @@ Certain functions such as 'view', 'camlight' and axis can be used to visually im
 
 !!! Add Code here !!!
 
+Changing patch properties allows us to control and change appearance and behavior of the 3D surface. For instance, 'FaceColor' sets the color of the polygons. 'Edgecolor' controls the color of polygon edges. 
+
+!!! Add Code here !!!
+
 
 
 
