@@ -52,7 +52,7 @@ The PLY structure can be saved outside MATLAB using the function 'ply_write'.
 
 !!! Add Cod here !!!
 
-Similarly the simulted volume can be saved as a nifti file for furtre use. 
+Similarly the simulted volume can be saved as a nifti file for future use. 
 
 !!!
 
