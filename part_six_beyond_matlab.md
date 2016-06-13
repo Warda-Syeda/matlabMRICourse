@@ -30,7 +30,9 @@ Sometimes, one surface could be hidden behind another surface. Setting 'FaceAlph
 
 !!! Add Code here !!!
 
+'patch' also accepts separately specified faces and vertices  apart from accepting an whole surface object created by 'isosurface' fucntion.
 
+!!! Add Code here !!!
 
 
 
