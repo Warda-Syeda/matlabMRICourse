@@ -6,7 +6,7 @@
 
 {% codesnippet "./Snippets/S14.m" %}{% endcodesnippet %}
 
-
+![](./BookImages/mriSliceGIF.gif)
 
 {% codesnippet "./Snippets/S15.m" %}{% endcodesnippet %}
 
