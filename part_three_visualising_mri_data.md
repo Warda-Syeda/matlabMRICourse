@@ -24,8 +24,12 @@
 
 {% codesnippet "./Snippets/S18.m" %}{% endcodesnippet %}
 
+![](./BookImages/mriSliceTransformView.jpg)
+
 {% codesnippet "./Snippets/C6.m" %}{% endcodesnippet %}
 
 {% codesnippet "./Snippets/S19.m" %}{% endcodesnippet %}
+
+{% codesnippet "./Snippets/C7.m" %}{% endcodesnippet %}
 
 {% codesnippet "./Snippets/A1.m" %}{% endcodesnippet %}
