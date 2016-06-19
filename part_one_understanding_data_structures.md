@@ -64,15 +64,24 @@ In MATLAB, a dot operator '.' identifies a structure. A structure contains a lis
  
 {% codesnippet "./Snippets/S6.m" %}{% endcodesnippet %}
 
-Alternatively, the function 'struct' creates a structure array.
+Structures can store heterogeneous data
 
 {% codesnippet "./Snippets/S7.m" %}{% endcodesnippet %}
+
+Alternatively, the function 'struct' creates a structure array.
+
+{% codesnippet "./Snippets/S8.m" %}{% endcodesnippet %}
  
  It is possible to have an array of structures. 
 
-{% codesnippet "./Snippets/S8.m" %}{% endcodesnippet %}
+{% codesnippet "./Snippets/S9.m" %}{% endcodesnippet %}
 
 {% codesnippet "./Snippets/C2.m" %}{% endcodesnippet %}
+
+
+## Exporting MRI Data
+
+{% codesnippet "./Snippets/S10.m" %}{% endcodesnippet %}
 
 
 
