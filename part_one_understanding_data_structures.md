@@ -83,6 +83,9 @@ Alternatively, the function 'struct' creates a structure array.
 
 {% codesnippet "./Snippets/S10.m" %}{% endcodesnippet %}
 
+{% codesnippet "./Snippets/S11.m" %}{% endcodesnippet %}
+
+{% codesnippet "./Snippets/S12.m" %}{% endcodesnippet %}
 
 
 ## Online Resources
