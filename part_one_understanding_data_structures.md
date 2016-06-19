@@ -33,6 +33,8 @@ Alternatively, 'dicomdisp' can be used to examine file structure and contents of
 
 {% codesnippet "./Snippets/S2.m" %}{% endcodesnippet %}
 
+
+
 **Loading DICOM image**
 
 DICOM image data is read into MATLAB using 'dicomread' function.
@@ -66,8 +68,6 @@ Alternatively, the function 'struct' creates a structure array.
  It is possible to have an array of structures. 
 
 {% codesnippet "./Snippets/S8.m" %}{% endcodesnippet %}
-
-
 
 {% codesnippet "./Snippets/C2.m" %}{% endcodesnippet %}
 
