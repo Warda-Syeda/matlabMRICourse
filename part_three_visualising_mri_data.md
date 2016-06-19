@@ -2,7 +2,7 @@
 
 {% codesnippet "./Snippets/S13.m" %}{% endcodesnippet %}
 
-![](./BookImages/mriMontage.tiff)
+![](./BookImages/mriMontage.jpg)
 
 {% codesnippet "./Snippets/C4.m" %}{% endcodesnippet %}
 
@@ -11,6 +11,10 @@
 ![](./BookImages/mriSliceGIF.gif)
 
 {% codesnippet "./Snippets/S15.m" %}{% endcodesnippet %}
+
+![](./BookImages/mriSubplot.jpg)
+
+{% codesnippet "./Snippets/C5.m" %}{% endcodesnippet %}
 
 {% codesnippet "./Snippets/S16.m" %}{% endcodesnippet %}
 
