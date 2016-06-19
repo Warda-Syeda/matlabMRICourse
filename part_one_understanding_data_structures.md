@@ -25,7 +25,6 @@ The header contains information on the encapsulated Dataset. It consists of a Fi
 
 The function 'dicominfo' reads in metadata of a DICOM file.
 
-{% codesnippet "p1.m", lines="3:8" %}{% endcodesnippet %}
 
 !!! Add Code here !!!
 
