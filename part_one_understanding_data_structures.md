@@ -57,8 +57,9 @@ In MATLAB, a dot operator '.' identifies a structure. A structure contains a lis
  
 {% codesnippet "./Snippets/S6.m" %}{% endcodesnippet %}
 
-Alternatively, the function 'struct' creates a structure array.  
-!!! insert code here!!!
+Alternatively, the function 'struct' creates a structure array.
+
+{% codesnippet "./Snippets/S7.m" %}{% endcodesnippet %}
  
  It is possible to have an array of structures. 
 
