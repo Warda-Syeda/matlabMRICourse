@@ -25,20 +25,19 @@ The header contains information on the encapsulated Dataset. It consists of a Fi
 
 The function 'dicominfo' reads in metadata of a DICOM file.
 
- 
  {% codesnippet "./Snippets/S1.m" %}{% endcodesnippet %}
 
 Detailed information about DICOM metadata  and how it can be used for certain tasks e.g. memory pre-allocation can be found [here].(http://au.mathworks.com/company/newsletters/articles/accessing-data-in-dicom-files.html) .
 
 Alternatively, 'dicomdisp' can be used to examine file structure and contents of a DICOM file.
 
-!!!! Insert code here !!!!
+{% codesnippet "./Snippets/S2.m" %}{% endcodesnippet %}
 
 **Loading DICOM image**
 
 DICOM image data is read into MATLAB using 'dicomread' function.
 
-!!!! insert code here !!!!
+{% codesnippet "./Snippets/S3.m" %}{% endcodesnippet %}
 
 A quick way to check how a single image looks like is to use 'imagesc'
 
