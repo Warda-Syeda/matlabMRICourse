@@ -8,9 +8,11 @@
 
 {% codesnippet "./Snippets/S23.m" %}{% endcodesnippet %}
 
-
+{% codesnippet "./Snippets/C9.m" %}{% endcodesnippet %}
 
 {% codesnippet "./Snippets/S24.m" %}{% endcodesnippet %}
+
+{% codesnippet "./Snippets/C10.m" %}{% endcodesnippet %}
 
 {% codesnippet "./Snippets/S25.m" %}{% endcodesnippet %}
 
@@ -31,3 +33,5 @@
 {% codesnippet "./Snippets/S33.m" %}{% endcodesnippet %}
 
 {% codesnippet "./Snippets/S34.m" %}{% endcodesnippet %}
+
+{% codesnippet "./Snippets/C11.m" %}{% endcodesnippet %}
