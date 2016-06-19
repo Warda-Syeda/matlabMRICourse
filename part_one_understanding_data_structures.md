@@ -33,6 +33,7 @@ Alternatively, 'dicomdisp' can be used to examine file structure and contents of
 
 {% codesnippet "./Snippets/S2.m" %}{% endcodesnippet %}
 
+![](blob:https://www.gitbook.com/f8a2d1e1-2efc-4233-9d32-d1d66edd6f34)
 
 
 **Loading DICOM image**
