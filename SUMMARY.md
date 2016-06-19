@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Understanding MRI Data](part_one_understanding_data_structures.md)
+* [MRI Images and Data Structures](part_one_understanding_data_structures.md)
 * [Visualising MRI Data](part_three_visualising_mri_data.md)
 * [Selecting ROIs](selecting_rois.md)
 * [Analysing MRI Data](part_four_analysing_mri_data.md)
