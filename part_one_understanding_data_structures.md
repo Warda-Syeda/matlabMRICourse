@@ -1,4 +1,4 @@
-# Understanding MRI Data
+# MRI Images and Data Structures
 Most MRI datasets contain images and details of experimental setup used for data acquisition and reconstruction. MRI images come in a variety of formats depending on the company of the scanner used for imaging.  The most commonly encountered format , DICOM, is supported by Siemens, GE and Philips scanners. Bruker scanners support 2dseq format. 
 
 In this course, we will focus on DICOM images. However, most of the course content can be translated to MRI images in other formats with minor modifications.
