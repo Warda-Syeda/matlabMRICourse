@@ -34,7 +34,6 @@ Alternatively, 'dicomdisp' can be used to examine file structure and contents of
 {% codesnippet "./Snippets/S2.m" %}{% endcodesnippet %}
 
 
-
 **Loading DICOM image**
 
 DICOM image data is read into MATLAB using 'dicomread' function.
