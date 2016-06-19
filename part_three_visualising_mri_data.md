@@ -2,6 +2,8 @@
 
 {% codesnippet "./Snippets/S13.m" %}{% endcodesnippet %}
 
+![](./BookImages/mriMontage.tif)
+
 {% codesnippet "./Snippets/C4.m" %}{% endcodesnippet %}
 
 {% codesnippet "./Snippets/S14.m" %}{% endcodesnippet %}
