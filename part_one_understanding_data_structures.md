@@ -33,6 +33,7 @@ Alternatively, 'dicomdisp' can be used to examine file structure and contents of
 
 {% codesnippet "./Snippets/S2.m" %}{% endcodesnippet %}
 
+![](DicomInfoImg.tiff)
 
 **Loading DICOM image**
 
