@@ -1,4 +1,14 @@
 # MRI Images And Data Structures
+**Learning Objectives**
+
+After completing this lesson, students should be able to
+
+*   Identify MRI image files stored in DICOM format.
+*   Load, analyze and identify the contents of MRI image files.
+*   Understand MATLAB 'structure' data type.
+*   Create and export NIFTI image files for FSL and MRtrix tools.  
+_______________________________________________________________
+
 Most MRI datasets contain images and details of experimental setup used for data acquisition and reconstruction. MRI images come in a variety of formats depending on the company of the scanner used for imaging.  The most commonly encountered format, DICOM, is supported by Siemens, GE and Philips scanners. Bruker scanners support 2dseq format. 
 
 In this course, we will focus on DICOM images. However, most of the course content can be translated to MRI images in other formats with minor modifications.
@@ -13,7 +23,7 @@ The header contains information on the encapsulated Dataset. It consists of a Fi
 
 The function 'dicominfo' reads in metadata of a DICOM file.
 
-!!!! Insert Code here !!!!
+{% codesnippet "./mCode/p1.m", lines="3:11" %}{% endcodesnippet %}
 
 Detailed information about DICOM metadata  and how it can be used for certain tasks e.g. memory pre-allocation can be found [here].(http://au.mathworks.com/company/newsletters/articles/accessing-data-in-dicom-files.html) .
 
