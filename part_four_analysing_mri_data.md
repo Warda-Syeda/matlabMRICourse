@@ -15,3 +15,5 @@
 {% codesnippet "./Snippets/S41.m" %}{% endcodesnippet %}
 
 {% codesnippet "./Snippets/S42.m" %}{% endcodesnippet %}
+
+{% codesnippet "./Snippets/C12.m" %}{% endcodesnippet %}
