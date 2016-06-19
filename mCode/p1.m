@@ -686,25 +686,25 @@ imagesc(closeEyeBW.*normMriImage2);
 % colormap(cm)
 % set(cHandle,'FaceColor','interp')
 % 
-% figure
-% colormap(gray(1000))
-% Ds = smooth3(mriImage);
-% hiso = patch(isosurface(Ds,22),...
-%     'FaceColor',[1,.75,.65],...
-%     'EdgeColor','none');
-% isonormals(Ds,hiso)
-% 
-% hcap = patch(isocaps(mriImage,22),...
-%     'FaceColor','interp',...
-%     'EdgeColor','none');
-% view(35,30)
-% axis tight
-% daspect([1,1,.1])
-% lightangle(-40,30);
-% lighting gouraud
-% hcap.AmbientStrength = 1;
-% hiso.SpecularColorReflectance = 1;
-% hiso.SpecularExponent = 60;
-% set (gca, 'ZDir', 'reverse')
+figure
+colormap(gray(1000))
+Ds = smooth3(mriImage);
+hiso = patch(isosurface(Ds,22),...
+    'FaceColor',[1,.75,.65],...
+    'EdgeColor','none');
+isonormals(Ds,hiso)
+
+hcap = patch(isocaps(mriImage,22),...
+    'FaceColor','interp',...
+    'EdgeColor','none');
+view(35,30)
+axis tight
+daspect([1,1,.1])
+lightangle(-40,30);
+lighting gouraud
+hcap.AmbientStrength = 1;
+hiso.SpecularColorReflectance = 1;
+hiso.SpecularExponent = 60;
+set (gca, 'ZDir', 'reverse')
 
 % %%%%%%%%%% End of surface-based visualization techniques %%%%%%%%%%%%%%
