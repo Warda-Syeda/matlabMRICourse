@@ -27,7 +27,7 @@ The function 'dicominfo' reads in metadata of a DICOM file.
 
  {% codesnippet "./Snippets/S1.m" %}{% endcodesnippet %}
 
-Detailed information about DICOM metadata  and how it can be used for certain tasks e.g. memory pre-allocation can be found [here].(http://au.mathworks.com/company/newsletters/articles/accessing-data-in-dicom-files.html) .
+Detailed information about DICOM metadata  and how it can be used for certain tasks e.g. memory pre-allocation can be found [here](http://au.mathworks.com/company/newsletters/articles/accessing-data-in-dicom-files.html).
 
 Alternatively, 'dicomdisp' can be used to examine file structure and contents of a DICOM file.
 
