@@ -1,7 +1,7 @@
 % Part 1: Understanding MRI data
 % Contributor/s: Warda Syeda
 
-% Specify data foler
+% Specify data folder
 dataFolder = './MRIData/sT2_TSE_T_301/'; 
 
 imageName = 'IM-0001-0010.dcm';
@@ -60,15 +60,14 @@ Directory(2).Person = Person2;
 % Challenge 2
 
 % Create a structure called myImg with following fields
-% Img: a random image of a 3D object with 3 slices
-% (You can use MATLAB's in-build function 'magic' to fill image)
-% Dim: a vector containing dimensions of the image
-% Date: Date the image was created
-% ID: A unique image ID
+%   Img: a random image of a 3D object with 3 slices
+%   (You can use MATLAB's in-build function 'magic' to fill image)
+%   Dim: a vector containing dimensions of the image
+%   Date: Date the image was created
+%   ID: A unique image ID
+% Save myImage structure as a .mat file in current directory
 
-%Save myImage structure as a .mat file in current directory
-
-%%%%%% Challenge Solution %%%%%%%%%
+%%%%%% Challenge 2 Solution %%%%%%%%%
 
 % Creating a random image
 myObjImg = magic(200);
@@ -608,6 +607,8 @@ plot(hReg2.BinEdges(1:end-1), ePdfReg2);
 % Mega Challenge: Extract eye-regions in slice# 15 semi-automatically
 % Plot histograms of both eyes and infer their empirical distributions
 
+%%%%%%%% Mega Challenge Solution %%%%%%%%%
+
 % Creating binary mask
 normBW = im2bw(normMriImage2,0.5);
 
@@ -677,15 +678,20 @@ imagesc(closeEyeBW);
 subplot(1,2,2)
 imagesc(closeEyeBW.*normMriImage2);
 
+%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%% Advanced Imaging Techniques %%%%%%%%%%%%%%%%%%%%
 
-% figure
-% cm = gray(50);
-% cHandle = contourslice(mriImage,[],[],[1 5 15],8);
-% colormap(cm)
-% set(cHandle,'FaceColor','interp')
-% 
+% Contourslice can be used to display stack of slice contours
+
+figure
+cm = gray(50);
+cHandle = contourslice(mriImage,[],[],[1 5 15],8);
+colormap(cm)
+set(cHandle,'FaceColor','interp')
+
+%%% Rosa's Gift :D %%%%
+
 figure
 colormap(gray(1000))
 Ds = smooth3(mriImage);
