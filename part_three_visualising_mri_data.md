@@ -2,7 +2,7 @@
 
 {% codesnippet "./Snippets/S13.m" %}{% endcodesnippet %}
 
-![](./BookImages/mriMontage.tif)
+![](./BookImages/mriMontage.tiff)
 
 {% codesnippet "./Snippets/C4.m" %}{% endcodesnippet %}
 
