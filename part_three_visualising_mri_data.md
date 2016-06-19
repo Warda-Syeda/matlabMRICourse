@@ -18,9 +18,13 @@
 
 {% codesnippet "./Snippets/S16.m" %}{% endcodesnippet %}
 
+![](./BookImages/mriSliceView.jpg)
+
 {% codesnippet "./Snippets/S17.m" %}{% endcodesnippet %}
 
 {% codesnippet "./Snippets/S18.m" %}{% endcodesnippet %}
+
+{% codesnippet "./Snippets/C6.m" %}{% endcodesnippet %}
 
 {% codesnippet "./Snippets/S19.m" %}{% endcodesnippet %}
 
