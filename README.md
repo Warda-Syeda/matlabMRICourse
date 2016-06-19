@@ -6,7 +6,6 @@
 **Part 2: MRI Images and Data Structures**
 
 
-
 **Part 3: MATLAB for Structural MRI**
 
 **Learning Objectives**
