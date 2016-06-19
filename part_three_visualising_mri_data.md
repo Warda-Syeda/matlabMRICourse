@@ -1,2 +1,2 @@
-# Visualizing MRI Data
+# MRI Data Visualization - Tricks and Techniques
 
