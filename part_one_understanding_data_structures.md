@@ -33,7 +33,6 @@ Alternatively, 'dicomdisp' can be used to examine file structure and contents of
 
 {% codesnippet "./Snippets/S2.m" %}{% endcodesnippet %}
 
-![](blob:https://www.gitbook.com/f8a2d1e1-2efc-4233-9d32-d1d66edd6f34)
 
 
 **Loading DICOM image**
@@ -46,7 +45,6 @@ A quick way to check how a single image looks like is to use 'imagesc'
 
 {% codesnippet "./Snippets/S4.m" %}{% endcodesnippet %}
 
-![](blob:https://www.gitbook.com/6acdbb05-8b3f-465f-aa0f-b9dc5f9e1e06)
 
 *'dicomread' allows 'filename' or 'fileinfo' as input arguments. Using 'fileinfo' for identifying the dICOM file to read gives flexibility. For instance, we can read the file that satisfies a given criteria even though we do not know its name*
 
