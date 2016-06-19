@@ -25,30 +25,33 @@ The header contains information on the encapsulated Dataset. It consists of a Fi
 
 The function 'dicominfo' reads in metadata of a DICOM file.
 
- 
- {% codesnippet "./mCode/p1.m" %}{% endcodesnippet %}
+ {% codesnippet "./Snippets/S1.m" %}{% endcodesnippet %}
 
 Detailed information about DICOM metadata  and how it can be used for certain tasks e.g. memory pre-allocation can be found [here].(http://au.mathworks.com/company/newsletters/articles/accessing-data-in-dicom-files.html) .
 
 Alternatively, 'dicomdisp' can be used to examine file structure and contents of a DICOM file.
 
-!!!! Insert code here !!!!
+{% codesnippet "./Snippets/S2.m" %}{% endcodesnippet %}
+
+
 
 **Loading DICOM image**
 
 DICOM image data is read into MATLAB using 'dicomread' function.
 
-!!!! insert code here !!!!
+{% codesnippet "./Snippets/S3.m" %}{% endcodesnippet %}
 
 A quick way to check how a single image looks like is to use 'imagesc'
 
-!!!! insert code here !!!!
+{% codesnippet "./Snippets/S4.m" %}{% endcodesnippet %}
 
 *'dicomread' allows 'filename' or 'fileinfo' as input arguments. Using 'fileinfo' for identifying the dICOM file to read gives flexibility. For instance, we can read the file that satisfies a given criteria even though we do not know its name*
 
 Generally, a single DICOM file contains a single MRI slice data. To read in MRI data for all slices, each individual DICOM files are loaded separately. 'For' loop is used to read in all data files. 
 
-!!! insert code here!!!
+{% codesnippet "./Snippets/S5.m" %}{% endcodesnippet %}
+
+{% codesnippet "./Snippets/C1.m" %}{% endcodesnippet %}
 
 ## Structures in MATLAB
 
@@ -56,18 +59,17 @@ Structures are a convenient way of grouping heterogeneous data together into a s
 
 In MATLAB, a dot operator '.' identifies a structure. A structure contains a list of fields. Each field is a variable name that stores a particular piece of data.
  
-!!! insert code here!!!
+{% codesnippet "./Snippets/S6.m" %}{% endcodesnippet %}
 
-Alternatively, the function 'struct' creates a structure array.  
-!!! insert code here!!!
+Alternatively, the function 'struct' creates a structure array.
+
+{% codesnippet "./Snippets/S7.m" %}{% endcodesnippet %}
  
  It is possible to have an array of structures. 
 
-!!! insert code here!!!
+{% codesnippet "./Snippets/S8.m" %}{% endcodesnippet %}
 
-Challenge 1
-
-!!! insert code here!!!
+{% codesnippet "./Snippets/C2.m" %}{% endcodesnippet %}
 
 *Structures can be used to store images and metadata.*
 
