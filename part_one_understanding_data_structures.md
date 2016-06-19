@@ -45,6 +45,8 @@ A quick way to check how a single image looks like is to use 'imagesc'
 
 {% codesnippet "./Snippets/S4.m" %}{% endcodesnippet %}
 
+![](./BookImages/SingleBrainSlice.tiff)
+
 
 *'dicomread' allows 'filename' or 'fileinfo' as input arguments. Using 'fileinfo' for identifying the dICOM file to read gives flexibility. For instance, we can read the file that satisfies a given criteria even though we do not know its name*
 
