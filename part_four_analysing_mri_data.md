@@ -1,2 +1,2 @@
-# Analyzing MRI Data
+# Statistical Analysis of MRI Data
 
