@@ -4,13 +4,21 @@
 
 {% codesnippet "./Snippets/S21.m" %}{% endcodesnippet %}
 
+![](./BookImages/maskManuElip.jpg)
+
 {% codesnippet "./Snippets/S22.m" %}{% endcodesnippet %}
 
+![](./BookImages/maskManuRoiploy.jpg)
+
 {% codesnippet "./Snippets/S23.m" %}{% endcodesnippet %}
+
+![](./BookImages/maskManuMultiRoipoly.jpg)
 
 {% codesnippet "./Snippets/C9.m" %}{% endcodesnippet %}
 
 {% codesnippet "./Snippets/S24.m" %}{% endcodesnippet %}
+
+![](./BookImages/maskManuFreehand.jpg)
 
 {% codesnippet "./Snippets/C10.m" %}{% endcodesnippet %}
 
