@@ -63,7 +63,7 @@ Alternatively, the function 'struct' creates a structure array.
  
  It is possible to have an array of structures. 
 
-!!! insert code here!!!
+{% codesnippet "./Snippets/S8.m" %}{% endcodesnippet %}
 
 Challenge 1
 
