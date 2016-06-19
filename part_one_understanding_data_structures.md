@@ -49,6 +49,8 @@ Generally, a single DICOM file contains a single MRI slice data. To read in MRI 
 
 {% codesnippet "./Snippets/S5.m" %}{% endcodesnippet %}
 
+{% codesnippet "./Snippets/C1.m" %}{% endcodesnippet %}
+
 ## Structures in MATLAB
 
 Structures are a convenient way of grouping heterogeneous data together into a single entity.
@@ -65,9 +67,9 @@ Alternatively, the function 'struct' creates a structure array.
 
 {% codesnippet "./Snippets/S8.m" %}{% endcodesnippet %}
 
-Challenge 1
 
-!!! insert code here!!!
+
+{% codesnippet "./Snippets/C2.m" %}{% endcodesnippet %}
 
 *Structures can be used to store images and metadata.*
 
