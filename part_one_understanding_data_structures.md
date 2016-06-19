@@ -46,7 +46,7 @@ A quick way to check how a single image looks like is to use 'imagesc'
 
 {% codesnippet "./Snippets/S4.m" %}{% endcodesnippet %}
 
-
+![](blob:https://www.gitbook.com/6acdbb05-8b3f-465f-aa0f-b9dc5f9e1e06)
 
 *'dicomread' allows 'filename' or 'fileinfo' as input arguments. Using 'fileinfo' for identifying the dICOM file to read gives flexibility. For instance, we can read the file that satisfies a given criteria even though we do not know its name*
 
@@ -60,7 +60,7 @@ Generally, a single DICOM file contains a single MRI slice data. To read in MRI 
 
 Structures are a convenient way of grouping heterogeneous data together into a single entity.
 
-In MATLAB, a dot operator '.' identifies a structure. A structure contains a list of fields. Each field is a variable name that stores a particular piece of data.
+In MATLAB, a dot operator '.' identifies a structure. A structure contains a list of fields. Each field is a variable name that stores a particular piece of data. Structures can be used to store images and metadata.
  
 {% codesnippet "./Snippets/S6.m" %}{% endcodesnippet %}
 
@@ -74,7 +74,7 @@ Alternatively, the function 'struct' creates a structure array.
 
 {% codesnippet "./Snippets/C2.m" %}{% endcodesnippet %}
 
-*Structures can be used to store images and metadata.*
+
 
 ## Online Resources
 
