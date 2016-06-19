@@ -1,8 +1,45 @@
-# Part One: Understanding Structures
-Most MRI datasets contain images and details of experimental setup used for acquisition and reconstruction.
-Structures are a convenient way of grouping heterogeneous data together into a single entity. This allows for Managing heterogeneous data of different types and sizes efficiently.
+# MRI Images And Data Structures
+Most MRI datasets contain images and details of experimental setup used for data acquisition and reconstruction. MRI images come in a variety of formats depending on the company of the scanner used for imaging.  The most commonly encountered format, DICOM, is supported by Siemens, GE and Philips scanners. Bruker scanners support 2dseq format. 
+
+In this course, we will focus on DICOM images. However, most of the course content can be translated to MRI images in other formats with minor modifications.
+
+## DICOM File Strucutre
+
+DICOM images are identified by the extension '.dcm'. A DICOM file consists of a 'Header' and a 'Dataset'. 
+
+The header contains information on the encapsulated Dataset. It consists of a File Preamble, a DICOM prefix, and the File Meta Elements. 
+
+**Accessing DICOM Metadata**
+
+The function 'dicominfo' reads in metadata of a DICOM file.
+
+!!!! Insert Code here !!!!
+
+Detailed information about DICOM metadata  and how it can be used for certain tasks e.g. memory pre-allocation can be found [here].(http://au.mathworks.com/company/newsletters/articles/accessing-data-in-dicom-files.html) .
+
+Alternatively, 'dicomdisp' can be used to examine file structure and contents of a DICOM file.
+
+!!!! Insert code here !!!!
+
+**Loading DICOM image**
+
+DICOM image data is read into MATLAB using 'dicomread' function.
+
+!!!! insert code here !!!!
+
+A quick way to check how a single image looks like is to use 'imagesc'
+
+!!!! insert code here !!!!
+
+*'dicomread' allows 'filename' or 'fileinfo' as input arguments. Using 'fileinfo' for identifying the dICOM file to read gives flexibility. For instance, we can read the file that satisfies a given criteria even though we do not know its name*
+
+Generally, a single DICOM file contains a single MRI slice data. To read in MRI data for all slices, each individual DICOM files are loaded separately. 'For' loop is used to read in all data files. 
+
+!!! insert code here!!!
 
 ## Structures in MATLAB
+
+Structures are a convenient way of grouping heterogeneous data together into a single entity.
 
 In MATLAB, a dot operator '.' identifies a structure. A structure contains a list of fields. Each field is a variable name that stores a particular piece of data.
  
@@ -21,50 +58,12 @@ Challenge 1
 
 {% codesnippet "./mCode/p1.m", lines="20:27" %}{% endcodesnippet %}
 
+*Structures can be used to store images and metadata.*
 
-## Cells in MATLAB
+## Online Resources
+
+1. [Overview of DICOM file format](https://www.leadtools.com/help/leadtools/v19/dicom/clib/introstruct.html)
+2. [Detailed DICOM file format](http://dicom.nema.org/dicom/2013/output/chtml/part10/PS3.10.html)
 
 
-
->> Names = [‘Joe’ ;‘Jane’;’John’]
-
->> Names = ['Joe' 'Jane''John']
-
->> Names = {'Joe' 'Jane' 'John'}
-
-% Other Examples: Region Names, Dataset Names, Data Properties etc
-
-Mixed Data types in cells
-
->> Names = ['Joe' 'Jane' 'John' 100]
-
->> Names = {'Joe' 'Jane' 'John' 100}
-
-Indexing in cells
-
-Cell Indexing with Smooth Parentheses, ()
-
-Content Indexing with Curly Braces, {}
-
-cellfun
-
-Links to MATLAB help
-
-[http://au.mathworks.com/help/matlab/matlab_prog/multilevel-indexing-to-access-parts-of-cells.html](http://au.mathworks.com/help/matlab/matlab_prog/multilevel-indexing-to-access-parts-of-cells.html)
-
-[http://au.mathworks.com/help/matlab/matlab_prog/access-data-in-a-cell-array.html](http://au.mathworks.com/help/matlab/matlab_prog/access-data-in-a-cell-array.html)
-
-Challenge 2
-
-1.  Convert the structure from previous challenge to a cell array and name it myImageCell.
-2.  Display the 2-D image located at (: , : ,1) in Img field and change the colormap to gray
-3.  Calculate mean image using cellfun
-4.  Add the mean image to myImageCell
-5.  Save myImageCell in .mat file in current directory
-
-Loops and Conditionals with main focus on cells and structs
-
-Challenge 3
-
-Challenge about creating 2-3 similar structs and cells as previous challenges and looping through them. Display images only if certain conditions are met.
 
