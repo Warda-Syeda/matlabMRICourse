@@ -8,6 +8,8 @@
 
 {% codesnippet "./Snippets/S23.m" %}{% endcodesnippet %}
 
+
+
 {% codesnippet "./Snippets/S24.m" %}{% endcodesnippet %}
 
 {% codesnippet "./Snippets/S25.m" %}{% endcodesnippet %}
