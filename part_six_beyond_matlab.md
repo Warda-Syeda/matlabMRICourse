@@ -5,7 +5,7 @@ Anatomical volume is a set of 2D binary masks created from CT or MRI scanner dat
 
 ## Simulated data
 
-We are going to create simulated cube volume. 
+We are going to create simulated cube volume. The function 'meshgrid' is used to create a 3D rectangular grid. To make the volume, value 1 is assigned to voxels in the 3D space that belong to inside our geometrical shape.
 
 {% codesnippet "./Snippets/S43.m" %}{% endcodesnippet %}
 
