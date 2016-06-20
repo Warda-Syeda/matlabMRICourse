@@ -4,11 +4,16 @@
 
 **Contributor/s: Warda Syeda**
 
+**Learning Objectives**
+
 After finishing this lesson, the students should be able to:
+
 * Demonstrate basic knowledge of 3D volumes and surfaces.
 * Extract the 3D surface of a 3D volume.
-* Visualise 3D surfaces and color coded surface attributes. 
-* Read and write 3D surfaces files in MATLAB.
+* Visualise 3D surfaces and color coded surface attributes.
+* Display 3D anatomical models. 
+* Read and write various 3D surfaces formats in MATLAB.
+_________________________________________________________________________________
 
 Anatomical volume is a set of 2D binary masks created from CT or MRI scanner data. The surface model extraction and visualization is commonly used to study the geometry of anatomical structures. In this part, we will study about making 3D volumes and surfaces using MATLAB.
 
