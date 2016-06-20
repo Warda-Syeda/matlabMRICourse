@@ -70,8 +70,11 @@ Similarly the simulated volume can be saved as a nifti file for future use.
 
 {% codesnippet "./Snippets/S55.m" %}{% endcodesnippet %}
 
-!!! Add Challenge 1 challenge 2 and extended challenge !!!
+{% codesnippet "./Snippets/C14.m" %}{% endcodesnippet %}
 
+{% codesnippet "./Snippets/C15.m" %}{% endcodesnippet %}
+
+{% codesnippet "./Snippets/C16.m" %}{% endcodesnippet %}
 
 ## Anatomical data
 
