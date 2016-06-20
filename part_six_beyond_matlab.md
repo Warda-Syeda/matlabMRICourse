@@ -89,6 +89,12 @@ We can apply what we learned so far on anatomical data such as extracting and vi
 
 Another popular surface file format is '.stl'. MATLAB does not have an in-built function for reading .stl files but a function call 'stlread' is available to download from Mathworks website. (This function is provided in lesson repository.) 
 
+!!!! Add code !!!!
+
+!! Add Fig 7 !!!
+
+Similarly, Ply file format can be read into MATALB using the Mathworks function 'ply_read'. 
+
 
 
 
