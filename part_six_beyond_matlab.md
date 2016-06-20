@@ -41,7 +41,9 @@ Similarly the simulated volume can be saved as a nifti file for future use.
 !!! Add Cod here !!!
 !!! Add Challenge 1 challenge 2 and extended challenge !!!
 
-2.	Anatomical data
+
+## Anatomical data
+
 We can apply what we learned so far on anatomical data like a binary mask from a sheep brain 'sheepBrain.nii'.
 
 
