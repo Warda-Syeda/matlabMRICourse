@@ -95,6 +95,13 @@ Another popular surface file format is '.stl'. MATLAB does not have an in-built 
 
 Similarly, Ply file format can be read into MATALB using the Mathworks function 'ply_read'. 
 
+GIfTI (.gii) is the Geometery format under the NIfTI (.nii) format. It is a surface-file format complement to the NIfTI volume-file format. GIfTI is used in famous medical imaging software packages such as FreeSurfer, Caret and AFNI.
+
+To read '.gii' surface data, a freely available MATLAB function 'gifti' is used. 
+
+!!! Add Code !!!
+
+!!! Add Fig 8 !!!
 
 
 
