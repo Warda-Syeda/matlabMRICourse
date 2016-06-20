@@ -146,7 +146,7 @@ for iImg = 1:22
     % Setting display properties
     colormap gray
     axis image;
-    axis off; colorbar
+    axis off; %colorbar
     title(sprintf('Slice # %02d',iImg))      
 end
 
@@ -266,12 +266,12 @@ elipsBW = createMask(hElips);
 figure
 subplot(1,2,1)
 imagesc(elipsBW); colormap('gray')
-axis image
+axis image; axis off;
 
 % Displaying selected ROI
 subplot(1,2,2)
 imagesc(double(elipsBW).*mriImage1)
-axis image
+axis image; axis off;
 
 % Manual ROI selection
 
@@ -286,12 +286,12 @@ polyBW = roipoly();
 figure
 subplot(1,2,1)
 imagesc(polyBW); colormap('gray')
-axis image
+axis image; axis off;
 
 % Disply selected ROI
 subplot(1,2,2)
 imagesc(double(polyBW).*mriImage1); colormap('gray');
-axis image
+axis image; axis off;
 
 % roipoly can be used in a loop to create masks for multiple slices
 figure
@@ -341,11 +341,13 @@ freeBW = createMask(hFree);
 % Displaying binary mask
 figure
 subplot(1,2,1)
-imagesc(freeBW); colormap('gray')
+imagesc(freeBW); colormap('gray');
+axis image; axis off;
 
 % Displaying selected ROI
 subplot(1,2,2)
 imagesc(double(freeBW).*mriImage1);colormap('gray');
+axis image; axis off;
 
 % Challenge 2
 % By using the concepts of 'for loop', select 2-3 ROIs in a single slice.
