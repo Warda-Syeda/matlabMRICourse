@@ -1,8 +1,8 @@
 # Part Six: 3D Structural Modeling
 
-**Author: Rosita Shishgar**
+***Author: Rosita Shishgar***
 
-**Contributor/s: Warda Syeda**
+***Contributor/s: Warda Syeda***
 
 **Learning Objectives**
 
