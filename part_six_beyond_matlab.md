@@ -21,7 +21,7 @@ Certain functions such as 'view', 'camlight' and 'axis' can be used to visually 
 
 {% codesnippet "./Snippets/S46.m" %}{% endcodesnippet %}
 
-!!Add Fig. 1!!
+![](./BookImages/fig1.png)
 
 Changing patch properties allows us to control and change appearance and behavior of the 3D surface. For instance, 'FaceColor' sets the color of the polygons. 'Edgecolor' controls the color of polygon edges (Fig. 2-2). 
 
@@ -35,7 +35,7 @@ Sometimes, one surface could be hidden behind another surface. Setting 'FaceAlph
 
 {% codesnippet "./Snippets/S49.m" %}{% endcodesnippet %}
 
-!!Add Fig. 2!!
+![](./BookImages/fig2.png)
 
 Instead of using one color for all faces/vertices of the surface, 'FaceVertixCData' property sets one color per face/vertex. It is an important property to visualize surface geometrical features. 
 
@@ -43,20 +43,20 @@ In this example we specify a color for each vertex. Therefore, by setting 'FaceC
 
 {% codesnippet "./Snippets/S50.m" %}{% endcodesnippet %}
 
-!!Add Fig. 3!!
+![](./BookImages/fig3.png)
 
 You can also set 'FaceColor' property to 'interp' which determine the face colors by using a bilinear interpolation of the values at each vertex (Fig. 4).
 
 {% codesnippet "./Snippets/S51.m" %}{% endcodesnippet %}
 
-!!Add Fig. 4!!
+![](./BookImages/fig4.png)
 
 Predefined MATLAB colormaps can be used to color-code the surface. 
 After color-coding the surface, it is useful to separately display a colorbar so that the meaning of each color can easily be understood. A colorbar can be displayed by using the funciton 'colorbar' or pushing the colorbar icon in the figure toolbar (Fig. 5). 
 
 {% codesnippet "./Snippets/S52.m" %}{% endcodesnippet %}
 
-!!Add Fig. 5!!
+![](./BookImages/fig5.png)
 
 To save a created surface, the triangulated mesh can be converted to commonly used surface file formats such as Polygon File Format (.ply). The function tri_mesh_to_ply accepts a surface object and returns a PLY format structure.
 
