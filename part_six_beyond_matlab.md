@@ -78,6 +78,6 @@ Similarly the simulated volume can be saved as a nifti file for future use.
 
 ## Anatomical data
 
-We can apply what we learned so far on anatomical data such as extracting and visualizing sheep brain surface from its volumetric binary mask.  'sheepBrain.nii'.
+We can apply what we learned so far on anatomical data such as extracting and visualizing sheep brain surface from its volumetric binary mask, 'sheepBrain.nii'.
 
 
