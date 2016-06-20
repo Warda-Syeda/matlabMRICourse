@@ -39,7 +39,7 @@ Sometimes, one surface could be hidden behind another surface. Setting 'FaceAlph
 
 Instead of using one color for all faces/vertices of the surface, 'FaceVertexCData' property sets one color per face/vertex. It is an important property to visualize surface geometrical features. 
 
-In this example we specify a color for each vertex. Therefore, by setting 'FaceColor' property to ‘flat’, the color of the first vertex specified determines the face color (Fig. 3).
+In this example we specify a color for each vertex. Therefore, by setting 'FaceColor' property to 'flat, the color of the first vertex specified determines the face color (Fig. 3).
 
 {% codesnippet "./Snippets/S50.m" %}{% endcodesnippet %}
 
@@ -78,6 +78,6 @@ Similarly the simulated volume can be saved as a nifti file for future use.
 
 ## Anatomical data
 
-We can apply what we learned so far on anatomical data like a binary mask from a sheep brain 'sheepBrain.nii'.
+We can apply what we learned so far on anatomical data such as extracting and visualizing sheep brain surface from its volumetric binary mask.  'sheepBrain.nii'.
 
 
