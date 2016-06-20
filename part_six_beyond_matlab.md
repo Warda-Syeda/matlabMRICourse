@@ -37,7 +37,7 @@ Sometimes, one surface could be hidden behind another surface. Setting 'FaceAlph
 
 ![](./BookImages/fig2.png)
 
-Instead of using one color for all faces/vertices of the surface, 'FaceVertixCData' property sets one color per face/vertex. It is an important property to visualize surface geometrical features. 
+Instead of using one color for all faces/vertices of the surface, 'FaceVertexCData' property sets one color per face/vertex. It is an important property to visualize surface geometrical features. 
 
 In this example we specify a color for each vertex. Therefore, by setting 'FaceColor' property to ‘flat’, the color of the first vertex specified determines the face color (Fig. 3).
 
