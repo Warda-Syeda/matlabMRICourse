@@ -7,7 +7,7 @@ Anatomical volume is a set of 2D binary masks created from CT or MRI scanner dat
 
 We are going to create simulated cube volume. 
 
-{% codesnippet "./Snippets/S42.m" %}{% endcodesnippet %}
+{% codesnippet "./Snippets/S43.m" %}{% endcodesnippet %}
 
 To create a surface from the simulated volume data, 'isosurface' is used. This function accepts a 3D volume and returns faces and vertices of the constructed surface in the form of a triangulated mesh.
 
