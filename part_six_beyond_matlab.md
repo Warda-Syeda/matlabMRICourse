@@ -1,5 +1,9 @@
 # Part Six: 3D Structural Modeling
 
+**Author: Rosita Shishgar**
+
+**Contributor/s: Warda Syeda**
+
 Anatomical volume is a set of 2D binary masks created from CT or MRI scanner data. The surface model extraction and visualization is commonly used to study the geometry of anatomical structures. In this part, we will study about making 3D volumes and surfaces using MATLAB.
 
 
@@ -79,5 +83,12 @@ Similarly the simulated volume can be saved as a nifti file for future use.
 ## Anatomical data
 
 We can apply what we learned so far on anatomical data such as extracting and visualizing sheep brain surface from its volumetric binary mask, 'sheepBrain.nii'.
+!!!!!! Add Code !!!!!
+
+!!!! Add Fig 6 !!!
+
+Another popular surface file format is '.stl'. MATLAB does not have an in-built function for reading .stl files but a function call 'stlread' is available to download from Mathworks website. (This function is provided in lesson repository.) 
+
+
 
 
