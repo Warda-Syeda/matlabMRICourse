@@ -9,10 +9,11 @@
 
 After completing this lesson, students should be able to
 
-*   Identify MRI image files stored in DICOM format.
-*   Load, analyze and identify the contents of MRI image files.
-*   Understand MATLAB 'structure' data type.
-*   Create and export NIFTI image files for FSL and MRtrix tools.  
+*   Create a montage of MRI slice data.
+*   Display MRI slice data sequentially using 'imagesc' function.
+*   Creat grid view of MRI slice data using 'subplot'.
+*   Index MRI slice data to view in axial, coronal and sagittal directions. 
+*   Take affine transform of coronal and sagittal slices for improving image quality. 
 _______________________________________________________________
 
 
@@ -51,3 +52,5 @@ _______________________________________________________________
 {% codesnippet "./Snippets/C8.m" %}{% endcodesnippet %}
 
 {% codesnippet "./Snippets/A1.m" %}{% endcodesnippet %}
+
+![](./BookImages/BrainSlice.jpg)
