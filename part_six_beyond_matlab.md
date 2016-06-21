@@ -1,4 +1,4 @@
-# Part Six: 3D Structural Modeling
+# 3D Structural Modeling
 
 ***Author: Rosita Shishegar***
 
