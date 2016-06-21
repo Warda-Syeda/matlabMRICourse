@@ -1,7 +1,11 @@
-# MRI Images and Data Structures
-
 # MRI Images And Data Structures
-**Learning Objectives**
+
+***Author: Syeda Warda Taqdees***
+
+***Contributor/s: Dr. Christina Tuke Flanders***
+
+
+### Learning Objectives
 
 After completing this lesson, students should be able to
 
