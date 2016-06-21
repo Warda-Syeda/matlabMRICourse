@@ -96,20 +96,37 @@ Similarly the simulated volume can be saved as a nifti file for future use.
 
 ## Anatomical data
 
-We can apply what we learned so far on anatomical data such as extracting and visualizing sheep brain surface from its volumetric binary mask, 'sheepBrain.nii'. !!!!!! Add Code !!!!!
+We can apply what we learned so far on anatomical data such as extracting and visualizing sheep brain surface from its volumetric binary mask, 'sheepBrain.nii'. 
+
+!!!!!! Add Code !!!!!
+
 Patch property 'FaceLighting' adjust the light for object faces. To view curved anatomical surfaces 'gouraud' is used which calculates the light at the vertices and then linearly interpolate the light across the faces. 
+
 !!!! Add Fig 6 !!!
+
 Another popular surface file format is '.stl'. MATLAB does not have an in-built function for reading .stl files but a function called 'stlread' is available to download from Mathworks website. (This function is provided in lesson repository.) 
+
 !!!! Add code !!!!
+
 !! Add Fig 7 !!!
-Similarly, Ply file format can be read into MATALB using the Mathworks function 'ply_read'. 
+
+Similarly, Ply file format can be read into MATALB using the Mathworks function 'ply_read'.
+
 !!!! Add code !!!!
+
 !! Add Fig 8 !!!
+
 To illuminate the entire scene, Patch property ' AmbientStrength' is used.
 
+
 The last file format that we introduce is GIfTI (.gii), the Geometery format under the NIfTI (.nii) format. It is a surface-file format complement to the NIfTI volume-file format. GIfTI is used in famous medical imaging software packages such as FreeSurfer, Caret and AFNI.
+
 To read '.gii' surface data, a freely available MATLAB function 'gifti' is used. 
+
 !!! Add Code !!!
+
 !!! Add Fig 9 !!!
+
 !!! Challenge3  !!!!
+
 !!! Extended challenge !!!!
