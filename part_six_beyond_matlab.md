@@ -85,12 +85,18 @@ The PLY structure can be saved outside MATLAB using the function 'ply_write'.
 Similarly the simulated volume can be saved as a nifti file for future use. 
 
 {% codesnippet "./Snippets/S55.m" %}{% endcodesnippet %}
-
+***Challenge!***
+_________________________________________________________________
 {% codesnippet "./Snippets/C14.m" %}{% endcodesnippet %}
-
+_________________________________________________________________
+***Challenge!***
+_________________________________________________________________
 {% codesnippet "./Snippets/C15.m" %}{% endcodesnippet %}
-
+_________________________________________________________________
+***Challenge!***
+_________________________________________________________________
 {% codesnippet "./Snippets/C16.m" %}{% endcodesnippet %}
+__________________________________________________________________
 
 ## Anatomical data
 
@@ -124,7 +130,11 @@ To read '.gii' surface data, a freely available MATLAB function 'gifti' is used.
 {% codesnippet "./Snippets/S59.m" %}{% endcodesnippet %}
 
 ![](./BookImages/fig9.png)
-
+***Challenge!***
+_________________________________________________________________
 {% codesnippet "./Snippets/C17.m" %}{% endcodesnippet %}
-
+________________________________________________________________
+***Challenge!***
+_________________________________________________________________
 {% codesnippet "./Snippets/C18.m" %}{% endcodesnippet %}
+__________________________________________________________________
