@@ -92,11 +92,15 @@ The Neuroimaging Informatics Technology Initiative (NIfTI) file format is the mo
 
 MATLAB has not naturalized NIfTI format yet. This means that it does not provide built-in functions for making, viewing, loading and storing NIfTI files. However, toolboxes for NIfTI files are freely available on MATHWORKS. For this workshop, we have provided a set of NIfTI functions in the folder 'Helper Functions' present in the lesson repository. 
 
-
+To make a NIfTI object in MATALB, the function 'make_nii' is used. 
 
 {% codesnippet "./Snippets/S10.m" %}{% endcodesnippet %}
 
+The NIfTI object returned by 'make_nii' can be stored in a file outside MATLAB using 'save_nii'.
+
 {% codesnippet "./Snippets/S11.m" %}{% endcodesnippet %}
+
+Similarly, to load image data from a NIfTI file, 'load_nii' is used. 
 
 {% codesnippet "./Snippets/S12.m" %}{% endcodesnippet %}
 ***Challenge!***
