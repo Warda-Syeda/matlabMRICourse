@@ -1,5 +1,22 @@
 # MRI Data Visualization 
 
+***Author: Syeda Warda Taqdees***
+
+***Contributor/s: Dr. Christina Tuke Flanders***
+
+
+### Learning Objectives
+
+After completing this lesson, students should be able to
+
+*   Identify MRI image files stored in DICOM format.
+*   Load, analyze and identify the contents of MRI image files.
+*   Understand MATLAB 'structure' data type.
+*   Create and export NIFTI image files for FSL and MRtrix tools.  
+_______________________________________________________________
+
+
+
 {% codesnippet "./Snippets/S13.m" %}{% endcodesnippet %}
 
 ![](./BookImages/mriMontage.jpg)
