@@ -20,8 +20,15 @@ _____________________________________________________________
 
 
 ### Manual Image Masks
+MATLAB's image processing toolbox provides a variety of tool for manually selecting an image ROI.
+
+**Elliptical ROIs**
+
+'imellipse()' allows to manually place an ellipse on the image and returns the handle to the 'ellipse' object. The method createMask accepts the ellipse object handle and creates a mask within the image. A mask is a binary image (logical) with 1's assigned to the voxels within ROI and 0's assigned to the voxel outside ROI.
 
 {% codesnippet "./Snippets/S20.m" %}{% endcodesnippet %}
+
+Next we display both Mask image and the selected ROI. We can extract ROI voxels from the image by carrying out voxel-wise multiplication with the binary mask. Notice that we convert '*logical*' mask to '*double*' to ensure compatibility between mask and image datatypes. 
 
 {% codesnippet "./Snippets/S21.m" %}{% endcodesnippet %}
 
