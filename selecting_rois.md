@@ -15,7 +15,7 @@ After completing this lesson, students should be able to
 *   Sequentially delineate ROIs in multiple MRI slices.
 *   Select and store multiple ROIs on a single image.
 *   Learn to use 'regionprops' for measuring properties of image regions.
-*   Extract brain from MRI data semi-automatically. 
+*   Extract brain and perform skull removal on brain MRI data semi-automatically. 
 _____________________________________________________________
 
 {% codesnippet "./Snippets/S20.m" %}{% endcodesnippet %}
