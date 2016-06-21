@@ -16,6 +16,8 @@ After completing this lesson, students should be able to
 *   Calculate and display empirical probability distributions of image regions.
 _____________________________________________________________________________
 
+
+
 {% codesnippet "./Snippets/S35.m" %}{% endcodesnippet %}
 
 {% codesnippet "./Snippets/S36.m" %}{% endcodesnippet %}
