@@ -4,7 +4,8 @@ imagesc(mriImage1)
 
 for iReg = 1:2
      hFree= imfreehand();
-     RegionBW(:,:,iReg) = createMask(hFree);
-     [regX regY regVox(iReg).Vals] = find(RegionBW(:,:,iReg) .* mriImage1);
+     regionBW(:,:,iReg) = createMask(hFree);
+     codedRegionBW(:,:,iReg) = iReg.*regionBW(:,:,iReg);
+     [regX regY regVox(iReg).Vals] = find(regionBW(:,:,iReg) .* mriImage1);
      delete(hFree);
 end
