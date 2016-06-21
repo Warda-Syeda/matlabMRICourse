@@ -9,13 +9,12 @@
 
 After completing this lesson, students should be able to
 
-*   Create a montage of MRI slice data.
-*   Display MRI slice data sequentially using 'imagesc' function.
-*   Create grid view of MRI slice data using 'subplot'.
-*   Index MRI slice data to view in axial, coronal and sagittal directions. 
-*   Take Affine transform of coronal and sagittal slices for improving image quality.
-*   Display a stack of slice contours with suitable colormaps 
-_______________________________________________________________________________
+*   Normalize MRI data for implementing image processing methods.
+*   Create color-coded masks for image regions.
+*   Calculate statistical parameters such as mean voxel values of image regions.
+*   Display histograms of image regions for quantitative ROI analysis. 
+*   Calculate and display empirical probability distributions of image regions.
+_____________________________________________________________________________
 
 {% codesnippet "./Snippets/S35.m" %}{% endcodesnippet %}
 
