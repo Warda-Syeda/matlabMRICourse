@@ -13,7 +13,8 @@ After completing this lesson, students should be able to
 *   Display MRI slice data sequentially using 'imagesc' function.
 *   Creat grid view of MRI slice data using 'subplot'.
 *   Index MRI slice data to view in axial, coronal and sagittal directions. 
-*   Take affine transform of coronal and sagittal slices for improving image quality. 
+*   Take affine transform of coronal and sagittal slices for improving image quality.
+*   Display a stack of slice contours with suitable colormaps 
 _______________________________________________________________
 
 
