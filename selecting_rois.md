@@ -65,16 +65,17 @@ ________________________________________________________________
 
 ![](./BookImages/maskManuFreehand.jpg)
 ***Challenge!***
+______________________________________________________________
+{% codesnippet "./Snippets/C10.m" %}{% endcodesnippet %}
+_________________________________________________________________
 
+## Semi-automatic ROI Selection
 
-## Automatic ROI Selection
-
+MATLAB image processing toolbox provides useful fucntions for automating ROI selection in MRI images. In this section, we are going to utilize these functions for brain extraction.
 
 ### Automatic Ellipse Placement
 
-_________________________________________________________________
-{% codesnippet "./Snippets/C10.m" %}{% endcodesnippet %}
-_________________________________________________________________
+'imellipse()' also accpets position and size of an elliptical object that can be automatically placed on an image.
 
 {% codesnippet "./Snippets/S25.m" %}{% endcodesnippet %}
 
