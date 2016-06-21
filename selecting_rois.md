@@ -83,18 +83,30 @@ MATLAB image processing toolbox provides useful fucntions for automating ROI sel
 
 ### Semi-automatic Brain Extraction
 
+In brain extraction pipeline, first step is to normalize image slice voxels.
+
 **Normalising MRI Image**
 {% codesnippet "./Snippets/S26.m" %}{% endcodesnippet %}
 
 **Selecting Binarization Threshold**
 
+In order to create a binary mask for brain region, we need to select an optimal binarization threshold. It means that if the value in a voxel is greater than the threshold values then it will be considered as a brain voxel, otherwise it will be considered an outside voxel.
+
+For selecting an optimal threshold, we create histogram of normalized image intensities. 
+
 {% codesnippet "./Snippets/S28.m" %}{% endcodesnippet %}
 
 ![](./BookImages/brainHist.jpg)
+Notice that the low intensity background voxels are roughly grouped in the intensity range 0-0.15. 
+
+To check spatial distribution of intensities, I find it useful to create a slice mesh plot.
 
 {% codesnippet "./Snippets/S27.m" %}{% endcodesnippet %}
 
 ![](./BookImages/brainMesh.jpg)
+
+
+Based on historgram and meshplot, we select a threshold of 0.15 and create a binary mask.
 
 {% codesnippet "./Snippets/S29.m" %}{% endcodesnippet %}
 
