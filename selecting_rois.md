@@ -42,13 +42,18 @@ Next we display both Mask image and the selected ROI. We can extract ROI voxels 
 
 ![](./BookImages/maskManuMultiRoipoly.jpg)
 
+***Challenge!***
+_________________________________________________________________
 {% codesnippet "./Snippets/C9.m" %}{% endcodesnippet %}
+________________________________________________________________
 
 {% codesnippet "./Snippets/S24.m" %}{% endcodesnippet %}
 
 ![](./BookImages/maskManuFreehand.jpg)
-
+***Challenge!***
+_________________________________________________________________
 {% codesnippet "./Snippets/C10.m" %}{% endcodesnippet %}
+_________________________________________________________________
 
 {% codesnippet "./Snippets/S25.m" %}{% endcodesnippet %}
 
@@ -90,5 +95,7 @@ Next we display both Mask image and the selected ROI. We can extract ROI voxels 
 A summary of semi-automatic brain extraction pipeline is presented in the montage below.
 
 ![](./BookImages/brainExtractMontage.jpg)
-
+***Challenge!***
+_________________________________________________________________
 {% codesnippet "./Snippets/C11.m" %}{% endcodesnippet %}
+_________________________________________________________________
