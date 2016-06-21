@@ -38,9 +38,14 @@ Next we display both Mask image and the selected ROI. We can extract ROI voxels 
 
 ### Polygonal ROIs
 
+'roipoly()' allows us to interactively select a polygonal ROI on image. Every time a click is made on the image, a vertex of the polygon is created at that position. 'roipoly' returns a *logical* binary mask
+
+
 {% codesnippet "./Snippets/S22.m" %}{% endcodesnippet %}
 
 ![](./BookImages/maskManuRoiploy.jpg)
+
+So far, we have been creating masks on a single slice. Recall that our MRI image dataset consists of multiple slices. All manual selection techniques explained previously can be used in a loop to create binary masks for each slice in the dataset. Note that it is important to save slice mask in each iteration separately. Using this trick, we create a 3D volume mask for our data.
 
 {% codesnippet "./Snippets/S23.m" %}{% endcodesnippet %}
 
