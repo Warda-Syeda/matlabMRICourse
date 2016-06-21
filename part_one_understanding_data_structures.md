@@ -1,9 +1,8 @@
-
 # MRI Images And Data Structures
 
-***Author: Rosita Shishegar***
+***Author: Syeda Warda Taqdees***
 
-***Contributor/s: Warda Syeda***
+***Contributor/s: ***
 
 
 **Learning Objectives**
