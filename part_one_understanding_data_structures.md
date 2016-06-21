@@ -5,7 +5,7 @@
 ***Contributor/s: Dr. Christina Tuke Flanders***
 
 
-**Learning Objectives**
+### Learning Objectives
 
 After completing this lesson, students should be able to
 
