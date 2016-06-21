@@ -296,7 +296,7 @@ axis image; axis off;
 % roipoly can be used in a loop to create masks for multiple slices
 figure
 iMask = 1;
-for iImg = [1:10:22]
+for iImg = [1,5,10,20]
     
     % Selecting and displaying slice
     mriSlice = mriImage(:,:,iImg);
@@ -687,8 +687,8 @@ imagesc(closeEyeBW.*normMriImage2);
 % Contourslice can be used to display stack of slice contours
 
 figure
-cm = gray(50);
-cHandle = contourslice(mriImage,[],[],[1 5 15],8);
+cm = jet(100);
+cHandle = contourslice(mriImage,[],[],[1 5 10 15],8);
 colormap(cm)
 set(cHandle,'FaceColor','interp')
 
