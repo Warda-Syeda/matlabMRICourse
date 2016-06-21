@@ -13,9 +13,9 @@ After completing this lesson, students should be able to
 *   Manually select a polygonal ROI and adjust its shape interactively.
 *   Create draggable freehand region on MRI slice data.
 *   Sequentially delineate ROIs in multiple MRI slices.
-*   Select and store multiple ROIs on one image
-*   Learn to use 'regionprops' for measuring properties of image regions
-*   Extract brain from MRI data semi-automatically 
+*   Select and store multiple ROIs on a single image.
+*   Learn to use 'regionprops' for measuring properties of image regions.
+*   Extract brain from MRI data semi-automatically. 
 _____________________________________________________________
 
 {% codesnippet "./Snippets/S20.m" %}{% endcodesnippet %}
