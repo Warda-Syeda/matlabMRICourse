@@ -74,6 +74,8 @@ _________________________________________________________________
  
  One way to improve sagittal and coronal slice resolution is by scaling and resampling image data along these orientations. This is achieved by taking an affine transform. The function maketform accepts a 3x2 transform matrix and returns a spatial transform structure. Resampling properties are defined in a structure returned by 'makeresampler'.
 More information on affine transform can be found [here](http://homepages.inf.ed.ac.uk/rbf/HIPR2/affine.htm).
+
+Finally, the slice is spatially transformed using 'imtransform'.
 {% codesnippet "./Snippets/S17.m" %}{% endcodesnippet %}
 
 {% codesnippet "./Snippets/S18.m" %}{% endcodesnippet %}
