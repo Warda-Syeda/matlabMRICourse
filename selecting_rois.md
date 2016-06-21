@@ -26,6 +26,11 @@
 
 ![](./BookImages/maskAutoElips.jpg)
 
+
+### Semi-automatic Brain Extraction
+
+
+
 {% codesnippet "./Snippets/S26.m" %}{% endcodesnippet %}
 
 {% codesnippet "./Snippets/S27.m" %}{% endcodesnippet %}
