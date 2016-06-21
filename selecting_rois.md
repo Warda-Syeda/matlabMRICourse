@@ -18,6 +18,9 @@ After completing this lesson, students should be able to
 *   Extract brain and perform skull removal on brain MRI data semi-automatically. 
 _____________________________________________________________
 
+
+### Manual Image Masks
+
 {% codesnippet "./Snippets/S20.m" %}{% endcodesnippet %}
 
 {% codesnippet "./Snippets/S21.m" %}{% endcodesnippet %}
