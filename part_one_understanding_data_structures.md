@@ -55,7 +55,10 @@ Generally, a single DICOM file contains a single MRI slice data. To read in MRI 
 
 {% codesnippet "./Snippets/S5.m" %}{% endcodesnippet %}
 
+***Challenge!***
+_________________________________________________________________
 {% codesnippet "./Snippets/C1.m" %}{% endcodesnippet %}
+_________________________________________________________________
 
 ## Structures in MATLAB
 
