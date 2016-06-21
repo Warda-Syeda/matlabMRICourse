@@ -70,7 +70,10 @@ In this workshop, we are working on a 3D MRI dataset consisting of axial slices.
 _________________________________________________________________
 {% codesnippet "./Snippets/C6.m" %}{% endcodesnippet %}
 _________________________________________________________________
-
+ Notice that in the previous section, the dimensions of coronal and sagittal slices are 512x22. Thus, the images created for these views have very low resolution and they appear pixelated. 
+ 
+ One way to improve sagittal and coronal slice resolution is by scaling and resampling image data along these orientations. This is achieved by taking an affine transform. The function maketform accepts a 3x2 transform matrix and returns a spatial transform structure. Resampling properties are defined in a structure returned by 'makeresampler'.
+More information on affine transform can be found [here](http://homepages.inf.ed.ac.uk/rbf/HIPR2/affine.htm).
 {% codesnippet "./Snippets/S17.m" %}{% endcodesnippet %}
 
 {% codesnippet "./Snippets/S18.m" %}{% endcodesnippet %}
