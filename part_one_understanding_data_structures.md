@@ -93,8 +93,10 @@ __________________________________________________________________
 {% codesnippet "./Snippets/S11.m" %}{% endcodesnippet %}
 
 {% codesnippet "./Snippets/S12.m" %}{% endcodesnippet %}
-
+***Challenge!***
+_________________________________________________________________
 {% codesnippet "./Snippets/C3.m" %}{% endcodesnippet %}
+_________________________________________________________________
 
 
 ## Online Resources
