@@ -10,7 +10,7 @@
 
 {% codesnippet "./Snippets/S38.m" %}{% endcodesnippet %}
 
-![](./BookImages/pathoCodedMask.jpg)
+![](./BookImages/pathoStats.jpg)
 
 {% codesnippet "./Snippets/S39.m" %}{% endcodesnippet %}
 
