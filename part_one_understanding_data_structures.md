@@ -68,7 +68,7 @@ In MATLAB, a dot operator '.' identifies a structure. A structure contains a lis
  
 {% codesnippet "./Snippets/S6.m" %}{% endcodesnippet %}
 
-Structures can store heterogeneous data
+Structures can store heterogeneous data in their fields.
 
 {% codesnippet "./Snippets/S7.m" %}{% endcodesnippet %}
 
