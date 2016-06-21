@@ -114,17 +114,29 @@ Based on historgram and meshplot, we select a threshold of 0.15 and create a bin
 
 **Cleaning Binary Mask**
 
+We use 'bwareaopen' to remover all isolated regions of size 500 or less. 
+
 {% codesnippet "./Snippets/S30.m" %}{% endcodesnippet %}
 
 ![](./BookImages/brainExtractClean.jpg)
 
 **Selecting Brain Region**
 
+To select the brain regions, we calculate the area of each isolated region by using 'regionprops' and select the region with largest area as brain region.
+
+To do this, we assign a unique label to each region by using 'bwlabel'
+
 {% codesnippet "./Snippets/S31.m" %}{% endcodesnippet %}
+
+Next, we calculate area of each labeled region and find the index of the region with largest area. 
 
 {% codesnippet "./Snippets/S32.m" %}{% endcodesnippet %}
 
+Finally, we extract the largest region by using 'ismember'.
+
 {% codesnippet "./Snippets/S33.m" %}{% endcodesnippet %}
+
+To fill in any holes left in the region due to binarization, we use 'imfill' function.
 
 {% codesnippet "./Snippets/S34.m" %}{% endcodesnippet %}
 
