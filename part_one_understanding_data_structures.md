@@ -88,6 +88,12 @@ __________________________________________________________________
 
 ## Exporting MRI Data
 
+The Neuroimaging Informatics Technology Initiative (NIfTI) file format is the most commonly used volume-file format supported by popular MRI softwares such as FSL, AFNI and MRtrix. 
+
+MATLAB has not naturalized NIfTI format yet. This means that it does not provide built-in functions for making, viewing, loading and storing NIfTI files. However, toolboxes for NIfTI files are freely available on MATHWORKS. For this workshop, we have provided a set of NIfTI functions in the folder 'Helper Functions' present in the lesson repository. 
+
+
+
 {% codesnippet "./Snippets/S10.m" %}{% endcodesnippet %}
 
 {% codesnippet "./Snippets/S11.m" %}{% endcodesnippet %}
