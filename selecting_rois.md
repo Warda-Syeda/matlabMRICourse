@@ -81,7 +81,6 @@ MATLAB image processing toolbox provides useful fucntions for automating ROI sel
 
 ![](./BookImages/maskAutoElips.jpg)
 
-
 ### Semi-automatic Brain Extraction
 
 **Normalising MRI Image**
