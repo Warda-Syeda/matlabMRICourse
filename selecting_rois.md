@@ -62,6 +62,9 @@ ________________________________________________________________
 
 ## Automatic ROI Selection
 
+
+### Automatic Ellipse Placement
+
 _________________________________________________________________
 {% codesnippet "./Snippets/C10.m" %}{% endcodesnippet %}
 _________________________________________________________________
@@ -73,9 +76,10 @@ _________________________________________________________________
 
 ### Semi-automatic Brain Extraction
 
-
-
+**Normalising MRI Image**
 {% codesnippet "./Snippets/S26.m" %}{% endcodesnippet %}
+
+**Selecting Binarization Threshold**
 
 {% codesnippet "./Snippets/S28.m" %}{% endcodesnippet %}
 
