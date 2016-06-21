@@ -52,7 +52,7 @@ To further investigate the differences in the two image regions, we plot their h
 ![](./BookImages/pathoHist.jpg)
 
 
-Observe that the histograms are separated, indicating towards the changes the brain tissue due to tumor. 
+Observe that the histograms are separated, indicating towards the changes in the brain tissue due to tumor. 
 
 
 ### Empirical Probability Distribution
