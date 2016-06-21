@@ -7,8 +7,6 @@
 
 ### Learning Objectives
 
-
-
 After finishing this lesson, the students should be able to:
 
 * Demonstrate basic knowledge of 3D volumes and surfaces.
