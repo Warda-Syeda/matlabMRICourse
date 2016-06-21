@@ -387,10 +387,12 @@ autoElipseBW = createMask(imellipse(gca,elipsAutoPosition));
 figure
 subplot(1,2,1)
 imagesc(autoElipseBW); colormap('gray')
+axis image; axis off;
 
 % Displaying selected ROI
 subplot(1,2,2)
 imagesc(double(autoElipseBW).*mriImage1);colormap('gray');
+axis image; axis off;
 
 % Semi-automatic Brain Extraction
 
@@ -411,11 +413,15 @@ normBW = im2bw(normMriImage1,0.15);
 % Displaying binary mask
 figure
 subplot(1,2,1)
-imagesc(normBW); colormap('gray')
+imagesc(normBW); colormap('gray');
+axis image; axis off
+brainMontage(:,:,1) = double(normBW);
 
 % Displaying selected ROI
 subplot(1,2,2)
 imagesc(double(normBW).*normMriImage1);colormap('gray');
+axis image; axis off
+brainMontage(:,:,4) = double(normBW).*normMriImage1;
 
 % clean mask of small areas
 cleanBW = bwareaopen(normBW,500);
@@ -424,10 +430,14 @@ cleanBW = bwareaopen(normBW,500);
 figure
 subplot(1,2,1)
 imagesc(cleanBW); colormap('gray')
+axis image; axis off
+brainMontage(:,:,2) = double(cleanBW);
 
 % Displaying selected ROI
 subplot(1,2,2)
 imagesc(double(cleanBW).*normMriImage1);colormap('gray');
+axis image; axis off
+brainMontage(:,:,5) = double(cleanBW).*normMriImage1;
 
 % Select Region with largest area
 
@@ -454,10 +464,17 @@ fillBrainBW = imfill(brainBW,'holes');
 figure
 subplot(1,2,1)
 imagesc(fillBrainBW); colormap('gray')
+axis image; axis off
+brainMontage(:,:,3) = double(fillBrainBW);
 
 % Displaying selected ROI
 subplot(1,2,2)
 imagesc(double(fillBrainBW).*normMriImage1);colormap('gray');
+axis image; axis off
+brainMontage(:,:,6) = double(fillBrainBW).*normMriImage1;
+
+figure
+montage(reshape(brainMontage,[512 512 1 6]),'Size',[2 3])
 
 % Challenge 3
 % Select slice# 15 of this T2 brain dataset and create a normalized image
@@ -551,25 +568,27 @@ imagesc(mriImage1)
 
 for iReg = 1:2
      hFree= imfreehand();
-     RegionBW(:,:,iReg) = createMask(hFree);
-     [regX regY regVox(iReg).Vals] = find(RegionBW(:,:,iReg) .* mriImage1);
+     regionBW(:,:,iReg) = createMask(hFree);
+     codedRegionBW(:,:,iReg) = iReg.*regionBW(:,:,iReg);
+     [regX regY regVox(iReg).Vals] = find(regionBW(:,:,iReg) .* mriImage1);
      delete(hFree);
 end
 
 % Creating region-coded mask
-codedRegionMask = sum(RegionBW,3);
+codedRegionMask = sum(codedRegionBW,3);
 
 % Displaying region-coded mask
 figure
 imagesc(codedRegionMask);
+axis off
 
 % Display mean voxel values of both ROIs
 disp(sprintf('Mean voxel value of R1: %d',mean(regVox(1).Vals)));
 disp(sprintf('Mean voxel value of R2: %d',mean(regVox(2).Vals)));
 
 % Display std. voxel values of both ROIs
-disp(sprintf('Mean voxel value of R1: %d',std(regVox(1).Vals)));
-disp(sprintf('Mean voxel value of R2: %d',std(regVox(2).Vals)));
+disp(sprintf('Standard deviation of R1: %d',std(regVox(1).Vals)));
+disp(sprintf('Standard deviation of R2: %d',std(regVox(2).Vals)));
 
 % Creating histogram of region voxel values
 figure
