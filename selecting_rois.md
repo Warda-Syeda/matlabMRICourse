@@ -16,6 +16,7 @@ After completing this lesson, students should be able to
 *   Select and store multiple ROIs on one image
 *   Learn to use 'regionprops' for measuring properties of image regions
 *   Extract brain from MRI data semi-automatically 
+_____________________________________________________________
 
 {% codesnippet "./Snippets/S20.m" %}{% endcodesnippet %}
 
