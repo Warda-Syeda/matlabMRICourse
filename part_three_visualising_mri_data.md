@@ -17,7 +17,7 @@ After completing this lesson, students should be able to
 *   Display a stack of slice contours with suitable colormaps. 
 _______________________________________________________________
 
-MRI image volume-data is an 'MxNxK' dimenstional dataset, consisting of 'K' 2D images, called 'slices', of 'MxN' dimensions. Each slice in an MRI dataset has same orientation ('axial', 'coronal' or 'sagittal') depending on scanning parameters. 
+MRI image volume-data is an 'MxNxK' dimensional dataset, consisting of 'K' 2D images, called 'slices', of 'MxN' dimensions. Each slice in an MRI dataset has same orientation ('axial', 'coronal' or 'sagittal') depending on scanning parameters. 
 
 MRI image dataset can be visualized in MATLAB in different ways. In this section, we will discuss the commonly used methods for visualizing MRI data. 
 
@@ -25,7 +25,7 @@ MRI image dataset can be visualized in MATLAB in different ways. In this section
 ## Montage
 A montage is created by putting together image slices into a single image. 
 
-MATLAB function 'montage' accepts an MxNx1xK image dataset and displays multiple image frams as a montage. 'reshape()' is used to resize MRI image dataset for creating montage.
+MATLAB function 'montage' accepts an MxNx1xK image dataset and displays multiple image frames as a montage. 'reshape()' is used to resize MRI image dataset for creating montage.
 
 {% codesnippet "./Snippets/S13.m" %}{% endcodesnippet %}
 
