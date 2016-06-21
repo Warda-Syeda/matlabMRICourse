@@ -35,6 +35,9 @@ Next we display both Mask image and the selected ROI. We can extract ROI voxels 
 
 ![](./BookImages/maskManuElip.jpg)
 
+
+### Polygonal ROIs
+
 {% codesnippet "./Snippets/S22.m" %}{% endcodesnippet %}
 
 ![](./BookImages/maskManuRoiploy.jpg)
@@ -47,6 +50,9 @@ Next we display both Mask image and the selected ROI. We can extract ROI voxels 
 _________________________________________________________________
 {% codesnippet "./Snippets/C9.m" %}{% endcodesnippet %}
 ________________________________________________________________
+
+
+### Freehand ROIs
 
 {% codesnippet "./Snippets/S24.m" %}{% endcodesnippet %}
 
