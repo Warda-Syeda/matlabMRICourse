@@ -1,6 +1,11 @@
-# MRI Images and Data Structures
 
 # MRI Images And Data Structures
+
+***Author: Rosita Shishegar***
+
+***Contributor/s: Warda Syeda***
+
+
 **Learning Objectives**
 
 After completing this lesson, students should be able to
