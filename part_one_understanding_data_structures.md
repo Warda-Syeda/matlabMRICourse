@@ -51,9 +51,6 @@ A quick way to check how a single image looks like is to use 'imagesc'
 
 ![](./BookImages/SingleBrainSlice.tiff)
 
-
-*'dicomread' allows 'filename' or 'fileinfo' as input arguments. Using 'fileinfo' for identifying the dICOM file to read gives flexibility. For instance, we can read the file that satisfies a given criteria even though we do not know its name*
-
 Generally, a single DICOM file contains a single MRI slice data. To read in MRI data for all slices, each individual DICOM files are loaded separately. 'For' loop is used to read in all data files. 
 
 {% codesnippet "./Snippets/S5.m" %}{% endcodesnippet %}
