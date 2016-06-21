@@ -141,7 +141,6 @@ To fill in any holes left in the region due to binarization, we use 'imfill' fun
 {% codesnippet "./Snippets/S34.m" %}{% endcodesnippet %}
 
 ![](./BookImages/brainExtractFill.jpg)
-
 A summary of semi-automatic brain extraction pipeline is presented in the montage below.
 
 ![](./BookImages/brainExtractMontage.jpg)
