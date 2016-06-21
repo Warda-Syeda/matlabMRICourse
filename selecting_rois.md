@@ -59,6 +59,7 @@
 
 ![](./BookImages/brainExtractFill.jpg)
 A summary of semi-automatic brain extraction pipeline is presented in the montage below.
+
 ![](./BookImages/brainExtractMontage.jpg)
 
 {% codesnippet "./Snippets/C11.m" %}{% endcodesnippet %}
