@@ -80,7 +80,10 @@ Alternatively, the function 'struct' creates a structure array.
 
 {% codesnippet "./Snippets/S9.m" %}{% endcodesnippet %}
 
+***Challenge!***
+_________________________________________________________________
 {% codesnippet "./Snippets/C2.m" %}{% endcodesnippet %}
+__________________________________________________________________
 
 
 ## Exporting MRI Data
