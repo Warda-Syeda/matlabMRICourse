@@ -23,7 +23,10 @@ _______________________________________________________________
 
 ![](./BookImages/mriMontage.jpg)
 
+***Challenge!***
+_________________________________________________________________
 {% codesnippet "./Snippets/C4.m" %}{% endcodesnippet %}
+_________________________________________________________________
 
 {% codesnippet "./Snippets/S14.m" %}{% endcodesnippet %}
 
@@ -32,25 +35,35 @@ _______________________________________________________________
 {% codesnippet "./Snippets/S15.m" %}{% endcodesnippet %}
 
 ![](./BookImages/mriSubplot.jpg)
-
+***Challenge!***
+_________________________________________________________________
 {% codesnippet "./Snippets/C5.m" %}{% endcodesnippet %}
+_________________________________________________________________
 
 {% codesnippet "./Snippets/S16.m" %}{% endcodesnippet %}
 
 ![](./BookImages/mriSliceView.jpg)
+***Challenge!***
+_________________________________________________________________
 {% codesnippet "./Snippets/C6.m" %}{% endcodesnippet %}
+_________________________________________________________________
 
 {% codesnippet "./Snippets/S17.m" %}{% endcodesnippet %}
 
 {% codesnippet "./Snippets/S18.m" %}{% endcodesnippet %}
 
 ![](./BookImages/mriSliceTransformView.jpg)
-
+***Challenge!***
+_________________________________________________________________
 {% codesnippet "./Snippets/C7.m" %}{% endcodesnippet %}
+_________________________________________________________________
 
 {% codesnippet "./Snippets/S19.m" %}{% endcodesnippet %}
 
+***Challenge!***
+_________________________________________________________________
 {% codesnippet "./Snippets/C8.m" %}{% endcodesnippet %}
+__________________________________________________________________
 
 {% codesnippet "./Snippets/A1.m" %}{% endcodesnippet %}
 
