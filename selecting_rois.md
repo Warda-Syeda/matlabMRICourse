@@ -24,6 +24,8 @@
 
 {% codesnippet "./Snippets/S25.m" %}{% endcodesnippet %}
 
+![](./BookImages/maskAutoElips.jpg)
+
 {% codesnippet "./Snippets/S26.m" %}{% endcodesnippet %}
 
 {% codesnippet "./Snippets/S27.m" %}{% endcodesnippet %}
