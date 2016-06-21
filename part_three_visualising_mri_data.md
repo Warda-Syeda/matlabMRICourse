@@ -86,6 +86,8 @@ _________________________________________________________________
 {% codesnippet "./Snippets/C7.m" %}{% endcodesnippet %}
 _________________________________________________________________
 
+In previous section, we created '.nii' file for our data. NIfTI files can be viewed in MATLAB using 'view_nii' function provided in the course repository.
+
 {% codesnippet "./Snippets/S19.m" %}{% endcodesnippet %}
 
 ***Challenge!***
