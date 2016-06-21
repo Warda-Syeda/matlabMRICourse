@@ -50,6 +50,8 @@ To further investigate the differences in the two image regions, we plot their h
 {% codesnippet "./Snippets/S39.m" %}{% endcodesnippet %}
 
 ![](./BookImages/pathoHist.jpg)
+
+
 Observe that the histograms are separated, indicating towards the changes the brain tissue due to tumor. 
 
 
