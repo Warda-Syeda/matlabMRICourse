@@ -89,6 +89,7 @@ _________________________________________________________________
 
 ## Advanced Visualization Techniques
 
+**Viewing NIfTI files**
 
 In previous section, we created '.nii' file for our data. NIfTI files can be viewed in MATLAB using 'view_nii' function provided in the course repository.
 
@@ -98,6 +99,8 @@ In previous section, we created '.nii' file for our data. NIfTI files can be vie
 _________________________________________________________________
 {% codesnippet "./Snippets/C8.m" %}{% endcodesnippet %}
 __________________________________________________________________
+
+**3D Contour Slices**
 
 
 
