@@ -25,7 +25,7 @@ MRI image dataset can be visualized in MATLAB in different ways. In this section
 ## Montage
 A montage is created by putting together image slices into a single image. 
 
-MATLAB function 'montage' accepts an MxNx1xK image dataset and displays multiple image frams as a montage. 
+MATLAB function 'montage' accepts an MxNx1xK image dataset and displays multiple image frams as a montage. 'reshape()' is used to resize MRI image dataset for creating montage.
 
 {% codesnippet "./Snippets/S13.m" %}{% endcodesnippet %}
 
@@ -36,9 +36,19 @@ _________________________________________________________________
 {% codesnippet "./Snippets/C4.m" %}{% endcodesnippet %}
 _________________________________________________________________
 
+
+## Sequential Display
+
+In last section, we learned that 'imagesc' is a convenient way for displaying a single image slice. 'imagesc' can be paired with 'pause' command in a loop to display all image slice sequentially for viewing image slices sequentially.
+
 {% codesnippet "./Snippets/S14.m" %}{% endcodesnippet %}
 
 ![](./BookImages/mriSliceGIF.gif)
+
+
+## Slice Grid
+
+Another way to visualize MRI data is to used 'subplot' for displaying a gird of slices. Unlike montage, that creates a single image from all slices, a slice grid displays each slice in a separate figure. This allows us to change display properties of each slice individually. 
 
 {% codesnippet "./Snippets/S15.m" %}{% endcodesnippet %}
 
@@ -47,6 +57,8 @@ _________________________________________________________________
 _________________________________________________________________
 {% codesnippet "./Snippets/C5.m" %}{% endcodesnippet %}
 _________________________________________________________________
+
+
 
 {% codesnippet "./Snippets/S16.m" %}{% endcodesnippet %}
 
