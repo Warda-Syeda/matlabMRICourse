@@ -55,9 +55,11 @@ To calculate empirical probability distribution (pdf), we store the histogram in
 
 The 'histogram' object is a structure that stores all arguments returned by 'histogram' function. These arguements include bin width, number of bins and bin values. 
 
-Next, we use the information contained in 'histogram' object to calculate empirical pdf. 
+Next, we use the information contained in 'histogram' object to calculate empirical pdfs of R1 and R2. 
 
 {% codesnippet "./Snippets/S41.m" %}{% endcodesnippet %}
+
+We plot both empirical pdfs calculated against each bin edge of the histogram.
 
 {% codesnippet "./Snippets/S42.m" %}{% endcodesnippet %}
 
