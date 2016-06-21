@@ -61,7 +61,7 @@ _________________________________________________________________
 
 ## Coronal and Sagittal Slice Extraction
 
-
+In this workshop, we are working on a 3D MRI dataset consisting of axial slices. We can extract sagittal and coronal slices from this axial data by indexing. 
 
 {% codesnippet "./Snippets/S16.m" %}{% endcodesnippet %}
 
