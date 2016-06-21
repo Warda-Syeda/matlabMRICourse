@@ -127,6 +127,6 @@ To read '.gii' surface data, a freely available MATLAB function 'gifti' is used.
 
 ![](./BookImages/fig9.png)
 
-!!! Challenge3  !!!!
+{% codesnippet "./Snippets/C17.m" %}{% endcodesnippet %}
 
-!!! Extended challenge !!!!
+{% codesnippet "./Snippets/C18.m" %}{% endcodesnippet %}
