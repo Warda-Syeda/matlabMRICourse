@@ -74,3 +74,4 @@ We plot both empirical pdfs calculated against each bin edge of the histogram.
 ![](./BookImages/pathoPDF.jpg)
 _________________________________________________________________
 {% codesnippet "./Snippets/C12.m" %}{% endcodesnippet %}
+________________________________________________________________
