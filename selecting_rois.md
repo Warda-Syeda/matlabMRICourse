@@ -9,12 +9,13 @@
 
 After completing this lesson, students should be able to
 
-*   Create a montage of MRI slice data.
-*   Display MRI slice data sequentially using 'imagesc' function.
-*   Create grid view of MRI slice data using 'subplot'.
-*   Index MRI slice data to view in axial, coronal and sagittal directions. 
-*   Take Affine transform of coronal and sagittal slices for improving image quality.
-*   Display a stack of slice contours with suitable colormaps 
+*   Select an elliptical ROI manually and display it.
+*   Manually select a polygonal ROI and adjust its shape interactively.
+*   Create draggable freehand region on MRI slice data.
+*   Sequentially delineate ROIs in multiple MRI slices.
+*   Select and store multiple ROIs on one image
+*   Learn to use 'regionprops' for measuring properties of image regions
+*   Extract brain from MRI data semi-automatically 
 
 {% codesnippet "./Snippets/S20.m" %}{% endcodesnippet %}
 
