@@ -33,9 +33,13 @@
 
 {% codesnippet "./Snippets/S26.m" %}{% endcodesnippet %}
 
+{% codesnippet "./Snippets/S28.m" %}{% endcodesnippet %}
+
+![](./BookImages/brainHist.jpg)
+
 {% codesnippet "./Snippets/S27.m" %}{% endcodesnippet %}
 
-{% codesnippet "./Snippets/S28.m" %}{% endcodesnippet %}
+![](./BookImages/brainMesh.jpg)
 
 {% codesnippet "./Snippets/S29.m" %}{% endcodesnippet %}
 
