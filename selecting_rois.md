@@ -19,10 +19,11 @@ After completing this lesson, students should be able to
 _____________________________________________________________
 
 
-### Manual Image Masks
+## Manual Image Masks
 MATLAB's image processing toolbox provides a variety of tool for manually selecting an image ROI.
 
-**Elliptical ROIs**
+
+### Elliptical ROIs
 
 'imellipse()' allows to manually place an ellipse on the image and returns the handle to the 'ellipse' object. The method createMask accepts the ellipse object handle and creates a mask within the image. A mask is a binary image (logical) with 1's assigned to the voxels within ROI and 0's assigned to the voxel outside ROI.
 
