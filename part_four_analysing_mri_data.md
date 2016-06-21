@@ -19,7 +19,7 @@ _____________________________________________________________________________
 We can detect pathology in MRI image by calculating statistical properties of abnormal tissue and comparing them with the properties of a healthy tissue sample.
 
 
-### Color-Coding ROIs
+## Color-Coding ROIs
 
 
 First, we select two ROIs in slice#15 of the given dataset using imfreehand(). Voxels from each regions are assigned a unique number, starting from 1, in image mask. We can later use the color-coded mask image to label ROIs.
@@ -33,7 +33,7 @@ Let's display the color-coded mask. The green region 'R1' on the right is the pa
 ![](./BookImages/pathoCodedMask.jpg)
 
 
-### Image Statistical Parameters
+## Image Statistical Parameters
 
 After selecting normal and tumor ROIs, lets calculate mean and std of T2 values in both regions. 
 
@@ -55,7 +55,7 @@ To further investigate the differences in the two image regions, we plot their h
 Observe that the histograms are separated, indicating towards the changes in the brain tissue due to tumor. 
 
 
-### Empirical Probability Distribution
+## Empirical Probability Distribution
 
 To calculate empirical probability distribution (pdf), we store the histogram information into a 'histogram' object. 
 
