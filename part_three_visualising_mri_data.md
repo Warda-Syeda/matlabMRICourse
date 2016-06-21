@@ -102,7 +102,7 @@ __________________________________________________________________
 
 **3D Contour Slices**
 
-
+Each slice in image dataset is a 2D object and when stacked together create a 3D volume data object. By using 'contourslice' we can create a 3D object consisting of slice contours which can then be viewed in any orientation.
 
 {% codesnippet "./Snippets/A1.m" %}{% endcodesnippet %}
 
