@@ -10,7 +10,7 @@
 
 {% codesnippet "./Snippets/S38.m" %}{% endcodesnippet %}
 
-![](./BookImages/pathoStats.jpg)
+![](./BookImages/pathoStats.tiff)
 
 {% codesnippet "./Snippets/S39.m" %}{% endcodesnippet %}
 
