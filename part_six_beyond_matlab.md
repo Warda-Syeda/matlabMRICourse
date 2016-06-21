@@ -102,19 +102,19 @@ We can apply what we learned so far on anatomical data such as extracting and vi
 
 Patch property 'FaceLighting' adjust the light for object faces. To view curved anatomical surfaces 'gouraud' is used which calculates the light at the vertices and then linearly interpolate the light across the faces. 
 
-!!!! Add Fig 6 !!!
+![](./BookImages/fig6.png)
 
 Another popular surface file format is '.stl'. MATLAB does not have an in-built function for reading .stl files but a function called 'stlread' is available to download from Mathworks website. (This function is provided in lesson repository.) 
 
 !!!! Add code !!!!
 
-!! Add Fig 7 !!!
+![](./BookImages/fig7.png)
 
 Similarly, Ply file format can be read into MATALB using the Mathworks function 'ply_read'.
 
 !!!! Add code !!!!
 
-!! Add Fig 8 !!!
+![](./BookImages/fig8.png)
 
 To illuminate the entire scene, Patch property ' AmbientStrength' is used.
 
@@ -125,7 +125,7 @@ To read '.gii' surface data, a freely available MATLAB function 'gifti' is used.
 
 !!! Add Code !!!
 
-!!! Add Fig 9 !!!
+![](./BookImages/fig9.png)
 
 !!! Challenge3  !!!!
 
