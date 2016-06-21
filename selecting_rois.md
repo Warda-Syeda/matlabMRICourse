@@ -93,9 +93,13 @@ _________________________________________________________________
 
 ![](./BookImages/brainExtractMask.jpg)
 
+**Cleaning Binary Mask**
+
 {% codesnippet "./Snippets/S30.m" %}{% endcodesnippet %}
 
 ![](./BookImages/brainExtractClean.jpg)
+
+**Selecting Brain Region**
 
 {% codesnippet "./Snippets/S31.m" %}{% endcodesnippet %}
 
