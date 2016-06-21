@@ -59,6 +59,8 @@ ________________________________________________________________
 
 ### Freehand ROIs
 
+'imfreehand' is a handy function to draw draggable freehand ROIs on an image. It works similar to 'imellipse' and returns a 'freehand ROI' object which can later be used to create a mask by calling 'createMask' method.
+
 {% codesnippet "./Snippets/S24.m" %}{% endcodesnippet %}
 
 ![](./BookImages/maskManuFreehand.jpg)
