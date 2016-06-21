@@ -43,7 +43,11 @@
 
 {% codesnippet "./Snippets/S29.m" %}{% endcodesnippet %}
 
+![](./BookImages/brainExtractMask.jpg)
+
 {% codesnippet "./Snippets/S30.m" %}{% endcodesnippet %}
+
+![](./BookImages/brainExtractClean.jpg)
 
 {% codesnippet "./Snippets/S31.m" %}{% endcodesnippet %}
 
@@ -52,5 +56,9 @@
 {% codesnippet "./Snippets/S33.m" %}{% endcodesnippet %}
 
 {% codesnippet "./Snippets/S34.m" %}{% endcodesnippet %}
+
+![](./BookImages/brainExtractFill.jpg)
+A summary of semi-automatic brain extraction pipeline is presented in the montage below.
+![](./BookImages/brainExtractMontage.jpg)
 
 {% codesnippet "./Snippets/C11.m" %}{% endcodesnippet %}
