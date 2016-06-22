@@ -90,6 +90,7 @@ Finally, the slice is spatially transformed using 'imtransform'.
 
 ![](./BookImages/mriSliceTransformView.jpg)
 
+
 ***Challenge!***
 _________________________________________________________________
 {% codesnippet "./Snippets/C7.m" %}{% endcodesnippet %}
