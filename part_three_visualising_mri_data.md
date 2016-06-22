@@ -72,6 +72,7 @@ In this workshop, we are working on a 3D MRI dataset consisting of axial slices.
 
 ![](./BookImages/mriSliceView.jpg)
 
+
 ***Challenge!***
 _________________________________________________________________
 {% codesnippet "./Snippets/C6.m" %}{% endcodesnippet %}
