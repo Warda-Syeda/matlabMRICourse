@@ -66,6 +66,7 @@ In this workshop, we are working on a 3D MRI dataset consisting of axial slices.
 {% codesnippet "./Snippets/S16.m" %}{% endcodesnippet %}
 
 ![](./BookImages/mriSliceView.jpg)
+
 ***Challenge!***
 _________________________________________________________________
 {% codesnippet "./Snippets/C6.m" %}{% endcodesnippet %}
@@ -76,11 +77,13 @@ _________________________________________________________________
 More information on affine transform can be found [here](http://homepages.inf.ed.ac.uk/rbf/HIPR2/affine.htm).
 
 Finally, the slice is spatially transformed using 'imtransform'.
+
 {% codesnippet "./Snippets/S17.m" %}{% endcodesnippet %}
 
 {% codesnippet "./Snippets/S18.m" %}{% endcodesnippet %}
 
 ![](./BookImages/mriSliceTransformView.jpg)
+
 ***Challenge!***
 _________________________________________________________________
 {% codesnippet "./Snippets/C7.m" %}{% endcodesnippet %}
