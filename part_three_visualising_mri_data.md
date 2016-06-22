@@ -37,6 +37,11 @@ _________________________________________________________________
 _________________________________________________________________
 
 
+## Imshow()
+
+
+
+
 ## Sequential Display
 
 In last section, we learned that 'imagesc' is a convenient way for displaying a single image slice. 'imagesc' can be paired with 'pause' command in a loop to display all image slice sequentially for viewing image slices sequentially.
