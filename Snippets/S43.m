@@ -1,5 +1,5 @@
 % Create a 40x40x40 cube in the center of a 140x140x140 frame 
-frameDim=140;       % declaring frame dimensions
+frameDim = 140;       % declaring frame dimensions
 
 
 % Define cube center aligned to the center of the frame
