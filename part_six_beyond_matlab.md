@@ -150,6 +150,7 @@ __________________________________________________________________
 
 
 * Sheep brain have been provided by the Animal MRI Laboratory at the Florey Institute of Neuroscience and Mental Health, A/ Prof. Leigh Johnston.
+* The Femur data and stlread function are downloaded from MathWorks (http://au.mathworks.com/matlabcentral/fileexchange/22409-stl-file-reader ) and provided by Eric Jonson.  
 * Human brains visualised in this section are coming from Connectome DB and Connectome Workbench, developed under the auspices of the Human Connectome Project at Washington University in St. Louis and associated consortium institutions (http://www.humanconnectome.org/).
 
-*   
+
