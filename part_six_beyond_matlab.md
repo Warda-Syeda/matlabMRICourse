@@ -123,8 +123,6 @@ Similarly, Ply file format can be read into MATALB using the Mathworks function 
 
 ![](./BookImages/fig8.png)
 
-*Human brains visualised in this section are coming from Connectome DB and Connectome Workbench, developed under the auspices of the Human Connectome Project at Washington University in St. Louis and associated consortium institutions (http://www.humanconnectome.org/).
-
 
 To illuminate the entire scene, Patch property ' AmbientStrength' is used.
 
@@ -144,3 +142,14 @@ ________________________________________________________________
 _________________________________________________________________
 {% codesnippet "./Snippets/C18.m" %}{% endcodesnippet %}
 __________________________________________________________________
+**
+
+
+## Acknowledgements
+
+
+
+* Sheep brain have been provided by the Animal MRI Laboratory at the Florey Institute of Neuroscience and Mental Health, A/ Prof. Leigh Johnston.
+* Human brains visualised in this section are coming from Connectome DB and Connectome Workbench, developed under the auspices of the Human Connectome Project at Washington University in St. Louis and associated consortium institutions (http://www.humanconnectome.org/).
+
+*   
